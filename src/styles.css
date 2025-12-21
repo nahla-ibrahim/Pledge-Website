@@ -1,1 +1,20 @@
 @import 'tailwindcss';
+@theme {
+  --color-primary: #074279;
+  --color-primary-hover: #021a30;
+  --color-secondary: #bc1413;
+  --color-secondary-hover: #830c0c;
+  --color-bg: #b5daff;
+  --color-gradient-primary: linear-gradient(to bottom, white, var(--color-bg));
+  --color-gradient-btn: linear-gradient(
+    to bottom,
+    var(--color-secondary),
+    var(--color-secondary-hover)
+  );
+}
+.bg-gradient-primary {
+  background-image: var(--color-gradient-primary);
+}
+.bg-gradient-btn {
+  background-image: var(--color-gradient-btn);
+}

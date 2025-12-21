@@ -1,0 +1,39 @@
+<div class="px-3 sticky z-50 top-4">
+
+  <div class="container mx-auto px-5 border border-primary/30 rounded-full ">
+    <div class="flex w-full items-center justify-between ">
+      <img src="../../../../logo.png" class=" h-16" />
+      <button class="lg:hidden text-2xl text-primary cursor-pointer transition-colors duration-200" (click)="toggle()">
+        <fa-icon [icon]="isOpen() ? close : bars"></fa-icon>
+      </button>
+
+      <!-- ////////////// Desktop //////////////// -->
+      <ul class="hidden cursor-pointer text-sm  text-primary lg:flex gap-8 items-center" [class.open]="isOpen()">
+        <li class="hover:text-secondary">HOME</li>
+        <li class="hover:text-secondary">ABOUT</li>
+        <li class="hover:text-secondary">CONTACT US</li>
+        <li class="hover:text-secondary">COURSES</li>
+        <li class="hover:text-secondary">INSTRUCTORS</li>
+        <fa-icon [icon]="search"></fa-icon>
+        <fa-icon [icon]="light"></fa-icon>
+      </ul>
+    </div>
+  </div>
+
+  <!-- //////////// mobile ///////////// -->
+  <div
+    class="lg:hidden absolute top-full left-0 w-full bg-bg/95 rounded-2xl mt-2.5 opacity-0 -translate-y-2 pointer-events-none transition-all duration-300 ease-in-out border border-primary/30 z-10"
+    [class.open]="isOpen()">
+    <ul class="flex flex-col cursor-pointer text-sm items-center ">
+      <li class="hover:text-secondary border-b w-full p-5 border-primary/30 ">HOME</li>
+      <li class="hover:text-secondary border-b w-full p-5 border-primary/30 ">ABOUT</li>
+      <li class="hover:text-secondary border-b w-full p-5 border-primary/30 ">CONTACT US</li>
+      <li class="hover:text-secondary border-b w-full p-5 border-primary/30">COURSES</li>
+      <li class="hover:text-secondary border-b w-full p-5 border-primary30">INSTRUCTORS</li>
+      <div class="flex w-full justify-between gap-6 p-5">
+        <fa-icon [icon]="search"></fa-icon>
+        <fa-icon [icon]="light"></fa-icon>
+      </div>
+    </ul>
+  </div>
+</div>
