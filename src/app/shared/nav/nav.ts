@@ -1,6 +1,13 @@
-import { Component, signal } from '@angular/core';
+import { Component, signal, HostListener } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faBars, faSearch, faMoon, faClose } from '@fortawesome/free-solid-svg-icons';
+import {
+  faBars,
+  faSearch,
+  faMoon,
+  faSun,
+  faClose,
+  faAngleDown,
+} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-nav',
@@ -12,12 +19,23 @@ export class Nav {
   bars = faBars;
   close = faClose;
   search = faSearch;
-  light = faMoon;
+  angleDown = faAngleDown;
+  moon = faMoon;
+  sun = faSun;
 
+  isDark = signal<boolean>(false);
+  isScrolled = signal(false);
   isOpen = signal(false);
 
   toggle() {
     this.isOpen.set(!this.isOpen());
-    console.log(this.isOpen());
+  }
+  darkMood() {
+    this.isDark.set(!this.isDark());
+  }
+
+  @HostListener('window:scroll')
+  onWindowScroll() {
+    this.isScrolled.set(window.scrollY > 50);
   }
 }

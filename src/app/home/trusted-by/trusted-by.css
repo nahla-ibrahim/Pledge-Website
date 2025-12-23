@@ -1,0 +1,11 @@
+.wave-section::before {
+  content: '';
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(to bottom, var(--color-bg), transparent);
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 40%;
+}

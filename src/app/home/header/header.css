@@ -1,0 +1,14 @@
+.wave::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 450px;
+  transform: translate(-50%, -50%);
+  height: 450px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, var(--color-secondary), transparent);
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 40%;
+  opacity: 30%;
+}

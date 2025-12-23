@@ -1,0 +1,32 @@
+<section #statsSection class="  wave-section relative bg-white py-16 ">
+  <div class="container mx-auto px-3 text-center relative ">
+    <h2 class="text-3xl font-bold text-primary mb-10">
+      Trusted by
+    </h2>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 ">
+      <div class="shadow-2xl flex bg-white p-3 gap-4 rounded-xl text-center w-full">
+        <fa-icon [icon]="userFriends" class="text-primary p-3 rounded-xl bg-gradient-primary text-3xl"></fa-icon>
+        <div class="flex flex-col items-start justify-center">
+          <p class="font-medium text-xl"> {{students}} + </p>
+          <p class="text-md">Students</p>
+        </div>
+      </div>
+      <div class=" shadow-2xl flex bg-white p-3 gap-4 rounded-xl text-center w-full">
+        <fa-icon [icon]="book" class="text-primary p-3 rounded-xl bg-gradient-primary text-3xl"></fa-icon>
+        <div class="flex flex-col items-start justify-center">
+          <p class="font-medium text-xl">{{courses}}+ </p>
+          <p class="text-md">Courses</p>
+        </div>
+      </div>
+      <div class=" shadow-2xl flex bg-white p-3 gap-4 rounded-xl text-center w-full">
+        <fa-icon [icon]="personChalkboard" class="text-primary p-3 rounded-xl bg-gradient-primary text-3xl"></fa-icon>
+        <div class="flex flex-col items-start justify-center">
+          <p class="font-medium text-xl"> {{instructors}} + </p>
+          <p class="text-md">Instructors</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

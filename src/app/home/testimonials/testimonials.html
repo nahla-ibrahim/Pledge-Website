@@ -1,0 +1,43 @@
+<section class=" py-16 overflow-hidden">
+  <div class="container px-3 mx-auto relative ">
+
+    <button (click)="prev()" class="absolute left-0 top-1/2 -translate-y-1/2    text-3xl text-primary">
+      ‹
+    </button>
+
+    <button (click)="next()" class="absolute right-0 top-1/2 -translate-y-1/2  text-3xl text-primary">
+      ›
+    </button>
+
+    <div class="flex justify-center gap-8 transition-all duration-500">
+      @for (item of testimonials; let index = $index; track index) {
+      @if (
+      index === currentIndex ||
+      index === currentIndex - 1 ||
+      index === currentIndex + 1
+      ) {
+
+      <div class="rounded-xl w-[320px] p-8 text-center shadow-lg transition-all duration-500 bg-gradient-primary"
+        [class.opacity-40]="index !== currentIndex" [class.scale-95]="index !== currentIndex">
+        <img [src]="item.image" class="w-20 h-20 rounded-full mx-auto -mt-16 border-4 border-white object-cover" />
+        <h3 class="mt-4 font-medium text-lg">{{ item.name }}</h3>
+        <p class="text-md mb-2 font-light ">{{ item.role }}</p>
+
+        <p class=" text-sm font-light text-gray-500">
+          {{ item.text }}
+        </p>
+      </div>
+      }
+      }
+    </div>
+
+    <div class="flex justify-center mt-8 gap-2 ">
+      @for (item of testimonials; let index = $index; track index) {
+      <span (click)="currentIndex = index" class="w-3 h-3 rounded-full cursor-pointer "
+        [class.bg-primary]="currentIndex === index" [class.bg-bg]="currentIndex != index">
+      </span>
+      }
+    </div>
+  </div>
+
+</section>

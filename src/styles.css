@@ -6,15 +6,12 @@
   --color-secondary-hover: #830c0c;
   --color-bg: #b5daff;
   --color-gradient-primary: linear-gradient(to bottom, white, var(--color-bg));
-  --color-gradient-btn: linear-gradient(
-    to bottom,
-    var(--color-secondary),
-    var(--color-secondary-hover)
-  );
+  --color-gradient-footer: linear-gradient(to right, var(--color-bg), var(--color-primary));
 }
+
 .bg-gradient-primary {
   background-image: var(--color-gradient-primary);
 }
-.bg-gradient-btn {
-  background-image: var(--color-gradient-btn);
+.bg-gradient-footer {
+  background-image: var(--color-gradient-footer);
 }

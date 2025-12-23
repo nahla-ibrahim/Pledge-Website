@@ -1,6 +1,6 @@
-<div class="px-3 sticky z-50 top-4">
+<div class="px-3 fixed z-50 top-5 w-full " [class.scrolled]="isScrolled()">
 
-  <div class="container mx-auto px-5 border border-primary/30 rounded-full ">
+  <div class="container mx-auto px-5 border border-primary/30 rounded-full " [class.navScroll]="isScrolled()">
     <div class="flex w-full items-center justify-between ">
       <img src="../../../../logo.png" class=" h-16" />
       <button class="lg:hidden text-2xl text-primary cursor-pointer transition-colors duration-200" (click)="toggle()">
@@ -12,27 +12,95 @@
         <li class="hover:text-secondary">HOME</li>
         <li class="hover:text-secondary">ABOUT</li>
         <li class="hover:text-secondary">CONTACT US</li>
-        <li class="hover:text-secondary">COURSES</li>
+        <li class="relative group">
+          <span class="flex items-center gap-1 hover:text-secondary
+          transition-colors">
+            SERVICES
+            <fa-icon [icon]="angleDown" class="group-hover:rotate-180 transition-all"></fa-icon>
+          </span>
+          <ul class="absolute left-0 mt-3 w-44
+           bg-white rounded-lg shadow-lg
+           opacity-0 invisible
+           group-hover:opacity-100 group-hover:visible
+           transition-all duration-200
+           translate-y-2 group-hover:translate-y-0 overflow-hidden">
+            <li>
+              <a href="#courses" class="block px-4 py-2 text-sm
+                hover:bg-gray-100 hover:text-secondary">
+                Courses
+              </a>
+            </li>
+            <li>
+              <a href="#workshop" class="block px-4 py-2 text-sm
+                hover:bg-gray-100 hover:text-secondary">
+                Workshop
+              </a>
+            </li>
+            <li>
+              <a href="#internship" class="block px-4 py-2 text-sm
+                hover:bg-gray-100 hover:text-secondary">
+                Internship
+              </a>
+            </li>
+          </ul>
+        </li>
+
         <li class="hover:text-secondary">INSTRUCTORS</li>
         <fa-icon [icon]="search"></fa-icon>
-        <fa-icon [icon]="light"></fa-icon>
+        <fa-icon [icon]="isDark() ? sun : moon" (click)="darkMood()"></fa-icon>
       </ul>
     </div>
   </div>
 
   <!-- //////////// mobile ///////////// -->
   <div
-    class="lg:hidden absolute top-full left-0 w-full bg-bg/95 rounded-2xl mt-2.5 opacity-0 -translate-y-2 pointer-events-none transition-all duration-300 ease-in-out border border-primary/30 z-10"
+    class="lg:hidden absolute top-full left-0 w-full bg-gradient-primary rounded-2xl mt-2.5 opacity-0 -translate-y-2 pointer-events-none transition-all duration-300 ease-in-out border border-primary/30 z-10"
     [class.open]="isOpen()">
     <ul class="flex flex-col cursor-pointer text-sm items-center ">
       <li class="hover:text-secondary border-b w-full p-5 border-primary/30 ">HOME</li>
       <li class="hover:text-secondary border-b w-full p-5 border-primary/30 ">ABOUT</li>
       <li class="hover:text-secondary border-b w-full p-5 border-primary/30 ">CONTACT US</li>
-      <li class="hover:text-secondary border-b w-full p-5 border-primary/30">COURSES</li>
-      <li class="hover:text-secondary border-b w-full p-5 border-primary30">INSTRUCTORS</li>
+      <div class="relative group w-full">
+        <button
+          class="flex items-center gap-1 hover:text-secondary transition-colors border-b w-full p-5 border-primary/30 ">
+          SERVICES
+          <svg class="w-3 h-3 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor"
+            stroke-width="2" viewBox="0 0 24 24">
+            <path d="M19 9l-7 7-7-7" />
+          </svg>
+          <fa-icon [icon]="angleDown"></fa-icon>
+        </button>
+        <ul class=" absolute hover:relative left-1/2 bottom-[0%] w-full
+          bg-white rounded-lg shadow-lg
+          opacity-0 invisible
+          group-hover:opacity-100 group-hover:visible
+          transition-all duration-200
+          group-hover:translate-y-0 z-50 -translate-x-1/2 translate-y-0
+">
+          <li>
+            <a href="#courses" class="block px-4 py-2 text-sm
+                hover:bg-gray-100 hover:text-secondary">
+              Courses
+            </a>
+          </li>
+          <li>
+            <a href="#workshop" class="block px-4 py-2 text-sm
+                hover:bg-gray-100 hover:text-secondary">
+              Workshop
+            </a>
+          </li>
+          <li>
+            <a href="#internship" class="block px-4 py-2 text-sm
+                hover:bg-gray-100 hover:text-secondary">
+              Internship
+            </a>
+          </li>
+        </ul>
+      </div>
+      <li class="hover:text-secondary border-b w-full p-5 border-primary/30">INSTRUCTORS</li>
       <div class="flex w-full justify-between gap-6 p-5">
         <fa-icon [icon]="search"></fa-icon>
-        <fa-icon [icon]="light"></fa-icon>
+        <fa-icon [icon]="isDark() ? sun : moon" (click)="darkMood()"></fa-icon>
       </div>
     </ul>
   </div>
