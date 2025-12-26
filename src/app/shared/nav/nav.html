@@ -1,14 +1,17 @@
-<div class="px-3 fixed z-50 top-5 w-full " [class.scrolled]="isScrolled()">
+<div class="px-3 fixed z-50 top-5 w-full " [class.scrolled]="isScrolled()"
+  [class.darkscroll]="isScrolled() && isDark()">
 
-  <div class="container mx-auto px-5 border border-primary/30 rounded-full " [class.navScroll]="isScrolled()">
+  <div class="container mx-auto px-5 border border-primary/30 dark:border-bg rounded-full "
+    [class.navScroll]="isScrolled()">
     <div class="flex w-full items-center justify-between ">
-      <img src="../../../../logo.png" class=" h-16" />
-      <button class="lg:hidden text-2xl text-primary cursor-pointer transition-colors duration-200" (click)="toggle()">
+      <img src="../../../../logo.png" class=" h-16 " />
+      <button class="lg:hidden text-2xl text-primary cursor-pointer transition-colors duration-200 " (click)="toggle()">
         <fa-icon [icon]="isOpen() ? close : bars"></fa-icon>
       </button>
 
       <!-- ////////////// Desktop //////////////// -->
-      <ul class="hidden cursor-pointer text-sm  text-primary lg:flex gap-8 items-center" [class.open]="isOpen()">
+      <ul class="hidden cursor-pointer text-sm  text-primary lg:flex gap-8 items-center dark:text-bg"
+        [class.open]="isOpen()">
         <li class="hover:text-secondary">HOME</li>
         <li class="hover:text-secondary">ABOUT</li>
         <li class="hover:text-secondary">CONTACT US</li>
@@ -19,26 +22,26 @@
             <fa-icon [icon]="angleDown" class="group-hover:rotate-180 transition-all"></fa-icon>
           </span>
           <ul class="absolute left-0 mt-3 w-44
-           bg-white rounded-lg shadow-lg
+           bg-white rounded-lg shadow-lg. dark:bg-primary
            opacity-0 invisible
            group-hover:opacity-100 group-hover:visible
            transition-all duration-200
            translate-y-2 group-hover:translate-y-0 overflow-hidden">
             <li>
               <a href="#courses" class="block px-4 py-2 text-sm
-                hover:bg-gray-100 hover:text-secondary">
+                hover:bg-gray-100 dark:hover:bg-dark-primary hover:text-secondary">
                 Courses
               </a>
             </li>
             <li>
               <a href="#workshop" class="block px-4 py-2 text-sm
-                hover:bg-gray-100 hover:text-secondary">
+                hover:bg-gray-100 hover:text-secondary dark:hover:bg-dark-primary">
                 Workshop
               </a>
             </li>
             <li>
               <a href="#internship" class="block px-4 py-2 text-sm
-                hover:bg-gray-100 hover:text-secondary">
+                hover:bg-gray-100 hover:text-secondary dark:hover:bg-dark-primary">
                 Internship
               </a>
             </li>
@@ -46,8 +49,10 @@
         </li>
 
         <li class="hover:text-secondary">INSTRUCTORS</li>
-        <fa-icon [icon]="search"></fa-icon>
-        <fa-icon [icon]="isDark() ? sun : moon" (click)="darkMood()"></fa-icon>
+        <fa-icon [icon]="search" class="hover:scale-110 transition-transform hover:text-secondary"></fa-icon>
+        <fa-icon [icon]="isDark() ? sun : moon" (click)="darkMode()"
+          class="hover:scale-110 transition-transform hover:text-secondary">
+        </fa-icon>
       </ul>
     </div>
   </div>
@@ -98,9 +103,9 @@
         </ul>
       </div>
       <li class="hover:text-secondary border-b w-full p-5 border-primary/30">INSTRUCTORS</li>
-      <div class="flex w-full justify-between gap-6 p-5">
+      <div class="flex w-full justify-between gap-6 p-5 ">
         <fa-icon [icon]="search"></fa-icon>
-        <fa-icon [icon]="isDark() ? sun : moon" (click)="darkMood()"></fa-icon>
+        <fa-icon [icon]="isDark() ? sun : moon" (click)="darkMode()"></fa-icon>
       </div>
     </ul>
   </div>

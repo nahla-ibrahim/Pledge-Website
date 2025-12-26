@@ -30,8 +30,20 @@ export class Nav {
   toggle() {
     this.isOpen.set(!this.isOpen());
   }
-  darkMood() {
+  darkMode() {
     this.isDark.set(!this.isDark());
+    console.log(this.isDark());
+
+    const theme = localStorage.getItem('theme');
+    if (theme !== 'dark') {
+      localStorage.setItem('theme', 'dark');
+      document.documentElement.classList.add('dark');
+      document.documentElement.classList.remove('light');
+    } else {
+      localStorage.setItem('theme', 'light');
+      document.documentElement.classList.add('light');
+      document.documentElement.classList.remove('dark');
+    }
   }
 
   @HostListener('window:scroll')

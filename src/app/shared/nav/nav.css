@@ -12,6 +12,9 @@
   box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow),
     var(--tw-ring-shadow), var(--tw-shadow);
 }
+.darkscroll {
+  background-color: var(--color-dark-primary);
+}
 .navScroll {
   border: none !important;
 }

@@ -1,0 +1,75 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Digital Marketing",
+      "image": "../../../../digital.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1500,
+      "discountPrice": 1200,
+      "bookLink": "#"
+    },
+    {
+      "id": "2",
+      "title": "Programming",
+      "image": "../../../../programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1800,
+      "discountPrice": 1400,
+      "bookLink": "#"
+    },
+    {
+      "id": "3",
+      "title": "English",
+      "image": "../../../../english.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1000,
+      "discountPrice": 700,
+      "bookLink": "#"
+    },
+    {
+      "id": "4",
+      "title": "Marketing",
+      "image": "../../../../header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "bookLink": "#"
+    }
+  ],
+  "instractors": [
+    {
+      "id": "1",
+      "name": "Mohamed Ahmed",
+      "image": "../../../../insta4.jpeg",
+      "description": "Business",
+      "exp": 10,
+      "courses": [
+        "1",
+        "3"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Ali Osman",
+      "image": "../../../../insta2.jpg",
+      "description": "Developer",
+      "exp": 10,
+      "courses": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Yousef Ibrahim",
+      "image": "../../../../insta3.jpg",
+      "description": "Marketing",
+      "exp": 4,
+      "courses": [
+        "2",
+        "1"
+      ]
+    }
+  ]
+}

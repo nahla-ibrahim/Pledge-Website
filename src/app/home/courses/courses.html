@@ -1,77 +1,20 @@
-<section class="py-16 ">
+<div class="py-16  bg-linear-to-b dark:from-primary dark:to-bg ">
   <div class="container mx-auto px-3 text-center ">
-    <h2 class="text-3xl font-bold text-primary mb-3">
+    <h2 class="text-3xl font-bold text-primary mb-3 dark:text-white">
       Trending Courses
     </h2>
-    <p class="mb-10 font-medium text-gray-500 text-lg ">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
-      <div class="shadow-lg border border-gray-200 flex flex-col overflow-hidden  rounded-xl  bg-white text-start">
-        <img src="../../../../digital.jpeg" class="w-full h-52 object-cover" />
-        <div class="p-3">
-          <h3 class="text-xl font-medium mb-2 ">Digital Marketing</h3>
-          <p class="font-light mb-2 text-gray-500 text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Nihil doloribus officiis
-            aperiam
-            totam recusandaed
-          </p>
-          <p class="text-secondary font-medium mb-3"> 1000 EGP <span class="line-through ms-3">1500</span></p>
-          <button
-            class="w-full bg-linear-to-r from-bg/70 via-bg/20 to-bg/70 rounded-lg py-2 cursor-pointer hover:bg-primary/60 my-1.5 transition-all hover:text-white">VIEW
-            DETAILS</button>
-        </div>
-      </div>
-      <div class="shadow-lg border border-gray-200 flex flex-col overflow-hidden  rounded-xl  bg-white text-start">
-        <img src="../../../../digital.jpeg" class="w-full h-52 object-cover" />
-        <div class="p-3">
-          <h3 class="text-xl font-medium mb-2 ">Digital Marketing</h3>
-          <p class="font-light mb-2 text-gray-500 text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Nihil doloribus officiis
-            aperiam
-            totam recusandaed
-          </p>
-          <p class="text-secondary font-medium mb-3"> 1000 EGP <span class="line-through ms-3">1500</span></p>
-          <button
-            class="w-full bg-linear-to-r from-bg/70 via-bg/20 to-bg/70 rounded-lg py-2 cursor-pointer hover:bg-primary/60 my-1.5 transition-all hover:text-white">VIEW
-            DETAILS</button>
-        </div>
-      </div>
-      <div class="shadow-lg border border-gray-200 flex flex-col overflow-hidden  rounded-xl  bg-white text-start">
-        <img src="../../../../digital.jpeg" class="w-full h-52 object-cover" />
-        <div class="p-3">
-          <h3 class="text-xl font-medium mb-2 ">Digital Marketing</h3>
-          <p class="font-light mb-2 text-gray-500 text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Nihil doloribus officiis
-            aperiam
-            totam recusandaed
-          </p>
-          <p class="text-secondary font-medium mb-3"> 1000 EGP <span class="line-through ms-3">1500</span></p>
-          <button
-            class="w-full bg-linear-to-r from-bg/70 via-bg/20 to-bg/70 rounded-lg py-2 cursor-pointer hover:bg-primary/60 my-1.5 transition-all hover:text-white">VIEW
-            DETAILS</button>
-        </div>
-      </div>
-      <div class="shadow-lg border border-gray-200 flex flex-col overflow-hidden  rounded-xl  bg-white text-start">
-        <img src="../../../../digital.jpeg" class="w-full h-52 object-cover" />
-        <div class="p-3">
-          <h3 class="text-xl font-medium mb-2 ">Digital Marketing</h3>
-          <p class="font-light mb-2 text-gray-500 text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Nihil doloribus officiis
-            aperiam
-            totam recusandaed
-          </p>
-          <p class="text-secondary font-medium mb-3"> 1000 EGP <span class="line-through ms-3">1500</span></p>
-          <button
-            class="w-full bg-linear-to-r from-bg/70 via-bg/20 to-bg/70 rounded-lg py-2 cursor-pointer hover:bg-primary/60 my-1.5 transition-all hover:text-white">VIEW
-            DETAILS</button>
-        </div>
-      </div>
-
-
+    <p class="mb-10 font-medium text-gray-500 text-lg dark:text-bg/70">Lorem, ipsum dolor sit amet consectetur
+      adipisicing
+      elit</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
+      @for(course of courses(); track course.id) {
+      <app-courses-card [data]="course" />}
     </div>
     <button
-      class=" bg-secondary mt-10 text-white px-5 py-3 rounded-md  cursor-pointer  hover:bg-primary hover:text-white  hover:shadow-3 transition-all font-medium">VIEW
+      class=" bg-secondary mt-10 text-white px-5 py-3 rounded-md  cursor-pointer  hover:bg-primary hover:text-white  hover:shadow-3 transition-all font-medium ">
+      VIEW
       ALL
       COURSES</button>
 
   </div>
-</section>
+</div>

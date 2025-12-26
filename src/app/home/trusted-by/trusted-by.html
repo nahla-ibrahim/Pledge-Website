@@ -1,32 +1,60 @@
-<section #statsSection class="  wave-section relative bg-white py-16 ">
-  <div class="container mx-auto px-3 text-center relative ">
-    <h2 class="text-3xl font-bold text-primary mb-10">
-      Trusted by
-    </h2>
+<div class="relative pt-16  bg-linear-to-b from-bg dark:from-dark-primary dark:from-10% dark:to-bg dark:via-primary to-white overflow-hidden
+" #statsSection>
+  <div class="inner-header flex">
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 ">
-      <div class="shadow-2xl flex bg-white p-3 gap-4 rounded-xl text-center w-full">
-        <fa-icon [icon]="userFriends" class="text-primary p-3 rounded-xl bg-gradient-primary text-3xl"></fa-icon>
-        <div class="flex flex-col items-start justify-center">
-          <p class="font-medium text-xl"> {{students}} + </p>
-          <p class="text-md">Students</p>
-        </div>
-      </div>
-      <div class=" shadow-2xl flex bg-white p-3 gap-4 rounded-xl text-center w-full">
-        <fa-icon [icon]="book" class="text-primary p-3 rounded-xl bg-gradient-primary text-3xl"></fa-icon>
-        <div class="flex flex-col items-start justify-center">
-          <p class="font-medium text-xl">{{courses}}+ </p>
-          <p class="text-md">Courses</p>
-        </div>
-      </div>
-      <div class=" shadow-2xl flex bg-white p-3 gap-4 rounded-xl text-center w-full">
-        <fa-icon [icon]="personChalkboard" class="text-primary p-3 rounded-xl bg-gradient-primary text-3xl"></fa-icon>
-        <div class="flex flex-col items-start justify-center">
-          <p class="font-medium text-xl"> {{instructors}} + </p>
-          <p class="text-md">Instructors</p>
-        </div>
-      </div>
+    <div class="container mx-auto px-3 text-center relative ">
+      <h2 class="text-3xl font-bold text-primary mb-10 dark:text-white">
+        Trusted by
+      </h2>
 
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+        <div class="shadow-2xl flex bg-white p-3 gap-4 rounded-xl  w-full dark:bg-bg">
+          <fa-icon [icon]="userFriends"
+            class="text-primary p-3 rounded-xl  bg-linear-to-b from-bg dark:from-dark-primary dark:from-10% dark:to-bg dark:via-primary to-white  dark:text-white text-3xl">
+          </fa-icon>
+          <div class="flex flex-col items-start justify-center">
+            <p class="font-medium text-xl text-black"> {{students}} + </p>
+            <p class="text-md">Students</p>
+          </div>
+        </div>
+        <div class=" shadow-2xl flex bg-white p-3 gap-4 rounded-xl text-center w-full dark:bg-bg">
+          <fa-icon [icon]="book"
+            class="text-primary p-3 rounded-xl  bg-linear-to-b from-bg dark:from-dark-primary dark:from-10% dark:to-bg dark:via-primary to-white  dark:text-white text-3xl">
+          </fa-icon>
+          <div class="flex flex-col items-start justify-center">
+            <p class="font-medium text-xl">{{courses}}+ </p>
+            <p class="text-md">Courses</p>
+          </div>
+        </div>
+        <div class=" shadow-2xl flex bg-white p-3 gap-4 rounded-xl text-center w-full dark:bg-bg">
+          <fa-icon [icon]="personChalkboard" class="text-primary p-3 rounded-xl bg-linear-to-b from-bg
+            dark:from-dark-primary dark:from-10% dark:to-bg dark:via-primary to-white dark:text-white text-3xl">
+          </fa-icon>
+          <div class="flex flex-col items-start justify-center">
+            <p class="font-medium text-xl"> {{instructors}} + </p>
+            <p class="text-md">Instructors</p>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
-</section>
+
+  <!--Waves Container-->
+  <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" class="dark:fill-primary/70" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" class="dark:fill-primary/70" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" class="dark:fill-primary/70" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" class="dark:fill-primary/70" />
+      </g>
+    </svg>
+  </div>
+  <!--Waves end-->
+
+</div>
