@@ -7,10 +7,23 @@ import { Nav } from '../shared/nav/nav';
 import { Instractors } from './instractors/instractors';
 import { Testimonials } from './testimonials/testimonials';
 import { Footer } from '../shared/footer/footer';
+import { Workshop } from './workshop/workshop';
+import { Interships } from './interships/interships';
 
 @Component({
   selector: 'app-home',
-  imports: [Header, TrustedBy, Courses, Why, Nav, Instractors, Testimonials, Footer],
+  imports: [
+    Header,
+    TrustedBy,
+    Courses,
+    Why,
+    Nav,
+    Instractors,
+    Testimonials,
+    Footer,
+    Workshop,
+    Interships,
+  ],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

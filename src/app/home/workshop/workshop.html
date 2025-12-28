@@ -1,0 +1,20 @@
+<div class="py-12  bg-linear-to-b dark:from-dark-primary dark:to-primary from-bg to-white  ">
+  <div class="container mx-auto px-3 text-center ">
+    <h2 class="text-3xl font-bold text-dark-primary mb-3 dark:text-white">
+      Trending Workshops
+    </h2>
+    <p class="mb-10 font-medium text-gray-500 text-lg dark:text-bg/70">Lorem, ipsum dolor sit amet consectetur
+      adipisicing
+      elit</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
+      @for(workshop of workshops(); track workshop.id) {
+      <app-courses-card [data]="workshop" />}
+    </div>
+    <button
+      class="bg-linear-to-r bg-secondary  py-3 px-5 cursor-pointer hover:from-dark-secondary  hover:to-dark-secondary hover:via-secondary  mt-10 text-white  rounded-md  transition-all font-medium hover:font-bold">
+      VIEW
+      ALL
+      WORKSHOPS</button>
+
+  </div>
+</div>

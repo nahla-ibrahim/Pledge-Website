@@ -1,4 +1,4 @@
-import { Component, signal, HostListener } from '@angular/core';
+import { Component, signal, HostListener, OnInit } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {
   faBars,
@@ -15,7 +15,13 @@ import {
   templateUrl: './nav.html',
   styleUrl: './nav.css',
 })
-export class Nav {
+export class Nav implements OnInit {
+  ngOnInit(): void {
+    const theme = localStorage.getItem('theme');
+    if (theme == 'dark') {
+      this.isDark.set(true);
+    }
+  }
   bars = faBars;
   close = faClose;
   search = faSearch;
@@ -26,26 +32,32 @@ export class Nav {
   isDark = signal<boolean>(false);
   isScrolled = signal(false);
   isOpen = signal(false);
+  openServices = signal(false);
 
   toggle() {
     this.isOpen.set(!this.isOpen());
   }
   darkMode() {
-    this.isDark.set(!this.isDark());
-    console.log(this.isDark());
-
     const theme = localStorage.getItem('theme');
     if (theme !== 'dark') {
       localStorage.setItem('theme', 'dark');
       document.documentElement.classList.add('dark');
       document.documentElement.classList.remove('light');
+      this.isDark.set(true);
+      console.log(this.isDark());
     } else {
       localStorage.setItem('theme', 'light');
       document.documentElement.classList.add('light');
       document.documentElement.classList.remove('dark');
+      this.isDark.set(false);
+      console.log(this.isDark());
+      console.log(this.isDark());
     }
   }
-
+  toggleServices() {
+    this.openServices.set(!this.openServices());
+    console.log(this.openServices());
+  }
   @HostListener('window:scroll')
   onWindowScroll() {
     this.isScrolled.set(window.scrollY > 50);

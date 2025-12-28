@@ -1,5 +1,7 @@
 export interface apiTypes {
   courses: CourseType[];
+  workshops: CourseType[];
+  interships: CourseType[];
   instractors: InstractorType[];
 }
 

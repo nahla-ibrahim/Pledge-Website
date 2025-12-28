@@ -5,7 +5,8 @@
 }
 
 .scrolled {
-  background-color: #e9f3fe;
+  background-color: var(--color-bg);
+  /* background-color: #e9f3fe; */
   top: 0;
   --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)),
     0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
@@ -17,4 +18,11 @@
 }
 .navScroll {
   border: none !important;
+}
+.openServices {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+  position: relative;
+  transition-delay: 80ms;
 }
