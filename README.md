@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/logo.png" alt="Pledge Logo" width="120" />
+  <img src="https://github.com/nahla-ibrahim/Pledge-Website/blob/main/public/logo.png" alt="Pledge Logo" width="120" />
 </p>
 
 # Pledge Website
@@ -48,10 +48,3 @@ The project focuses on a clean UI, smooth user experience, and a fully responsiv
  **This project is still under development**
 
 More features, improvements, and UI enhancements will be added soon.
-
----
-
-## 📌 Notes
-
-This project was built as part of a front-end practice using Angular and Tailwind,
-with a focus on real-world company website structure and best practices.
