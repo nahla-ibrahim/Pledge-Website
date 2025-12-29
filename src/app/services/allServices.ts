@@ -7,7 +7,7 @@ import { apiTypes, CourseType } from '../Types';
   providedIn: 'root',
 })
 export class allServices {
-  private apiUrl = 'http://localhost:4200/data.json';
+  private apiUrl = '/data.json';
   private http = inject(HttpClient);
 
   getData(): Observable<apiTypes> {
