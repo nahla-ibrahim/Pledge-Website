@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "Digital Marketing",
-      "image": "../../../../digital.jpeg",
+      "image": "assets/digital.jpeg",
       "description": "lorem kldemke rfker wkdwq",
       "price": 1500,
       "discountPrice": 1200,
@@ -12,7 +12,7 @@
     {
       "id": "2",
       "title": "Programming",
-      "image": "../../../../programming.webp",
+      "image": "assets/programming.webp",
       "description": "lorem kldemke rfker wkdwq",
       "price": 1800,
       "discountPrice": 1400,
@@ -21,7 +21,7 @@
     {
       "id": "3",
       "title": "English",
-      "image": "../../../../english.webp",
+      "image": "assets/english.webp",
       "description": "lorem kldemke rfker wkdwq",
       "price": 1000,
       "discountPrice": 700,
@@ -30,7 +30,7 @@
     {
       "id": "4",
       "title": "Marketing",
-      "image": "../../../../header1.png",
+      "image": "assets/header1.png",
       "description": "lorem kldemke rfker wkdwq ",
       "price": 1100,
       "discountPrice": 900,
@@ -41,7 +41,7 @@
     {
       "id": "1",
       "title": "Drawing Workshop",
-      "image": "../../../../drawing.jpeg",
+      "image": "assets/drawing.jpeg",
       "description": "lorem kldemke rfker wkdwq",
       "price": 1300,
       "discountPrice": 1150,
@@ -50,7 +50,7 @@
     {
       "id": "2",
       "title": "Programming Workshop",
-      "image": "../../../../programming.webp",
+      "image": "assets/programming.webp",
       "description": "lorem kldemke rfker wkdwq",
       "price": 1400,
       "discountPrice": 1300,
@@ -59,7 +59,7 @@
     {
       "id": "3",
       "title": "Art Workshop",
-      "image": "../../../../digitalDrawing.jpeg",
+      "image": "assets/digitalDrawing.jpeg",
       "description": "lorem kldemke rfker wkdwq",
       "price": 1400,
       "discountPrice": 900,
@@ -68,7 +68,7 @@
     {
       "id": "4",
       "title": "Marketing Workshop",
-      "image": "../../../../header1.png",
+      "image": "assets/header1.png",
       "description": "lorem kldemke rfker wkdwq ",
       "price": 1100,
       "discountPrice": 900,
@@ -79,7 +79,7 @@
     {
       "id": "1",
       "title": "Drawing Intership",
-      "image": "../../../../drawing.jpeg",
+      "image": "assets/drawing.jpeg",
       "description": "lorem kldemke rfker wkdwq",
       "price": 1300,
       "discountPrice": 1150,
@@ -88,7 +88,7 @@
     {
       "id": "2",
       "title": "Programming Intership",
-      "image": "../../../../programming.webp",
+      "image": "assets/programming.webp",
       "description": "lorem kldemke rfker wkdwq",
       "price": 1400,
       "discountPrice": 1300,
@@ -97,7 +97,7 @@
     {
       "id": "3",
       "title": "Art Intership",
-      "image": "../../../../digitalDrawing.jpeg",
+      "image": "assets/digitalDrawing.jpeg",
       "description": "lorem kldemke rfker wkdwq",
       "price": 1400,
       "discountPrice": 900,
@@ -106,7 +106,7 @@
     {
       "id": "4",
       "title": "Marketing Intership",
-      "image": "../../../../header1.png",
+      "image": "assets/header1.png",
       "description": "lorem kldemke rfker wkdwq ",
       "price": 1100,
       "discountPrice": 900,
@@ -117,7 +117,7 @@
     {
       "id": "1",
       "name": "Mohamed Ahmed",
-      "image": "../../../../inst2.jpg",
+      "image": "assets/inst2.jpg",
       "description": "Business",
       "exp": 8,
       "courses": [
@@ -127,7 +127,7 @@
     {
       "id": "2",
       "name": "Eman Seif",
-      "image": "../../../../inst4.jpeg",
+      "image": "assets/inst4.jpeg",
       "description": "Developer",
       "exp": 10,
       "courses": [
@@ -137,7 +137,7 @@
     {
       "id": "3",
       "name": "Yousef Ibrahim",
-      "image": "../../../../inst3.jpg",
+      "image": "assets/inst3.jpg",
       "description": "Marketing",
       "exp": 4,
       "courses": []
@@ -145,7 +145,7 @@
     {
       "id": "4",
       "name": "Ahmed Gamal",
-      "image": "../../../../inst2.jpg",
+      "image": "assets/inst2.jpg",
       "description": "Art Director",
       "exp": 3,
       "courses": [

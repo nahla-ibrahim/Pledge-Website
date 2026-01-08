@@ -15,7 +15,7 @@ export class Testimonials {
       id: 1,
       name: 'Samy Ali',
       role: 'ReviewCollector / CEO',
-      image: 'inst3.jpg',
+      image: 'assets/inst3.jpg',
       text: 'It’s the best plugin for that purpose...',
     },
     {
@@ -23,7 +23,7 @@ export class Testimonials {
 
       name: 'Nora Ahmed',
       role: 'Digital Marketing Course',
-      image: 'inst4.jpeg',
+      image: 'assets/inst4.jpeg',
       text: 'This digital marketing course is one of the best courses I have ever attended.The instructor is very professional, and the place is well-organized.',
     },
     {
@@ -31,7 +31,7 @@ export class Testimonials {
 
       name: 'Noah Mostafa',
       role: 'English Course',
-      image: 'inst2.jpg',
+      image: 'assets/inst2.jpg',
       text: 'This digital marketing course is one of the best courses I have ever attended.The instructor is very professional, and the place is well-organized.',
     },
   ];

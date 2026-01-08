@@ -1,13 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import { catchError, map, Observable } from 'rxjs';
-import { apiTypes, CourseType } from '../Types';
+import { apiTypes } from '../Types';
 
 @Injectable({
   providedIn: 'root',
 })
 export class allServices {
-  private apiUrl = '/data.json';
+  private apiUrl = 'assets/data.json';
   private http = inject(HttpClient);
 
   getData(): Observable<apiTypes> {
