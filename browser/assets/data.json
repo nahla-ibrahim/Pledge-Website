@@ -1,0 +1,156 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Digital Marketing",
+      "image": "assets/digital.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1500,
+      "discountPrice": 1200,
+      "bookLink": "#"
+    },
+    {
+      "id": "2",
+      "title": "Programming",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1800,
+      "discountPrice": 1400,
+      "bookLink": "#"
+    },
+    {
+      "id": "3",
+      "title": "English",
+      "image": "assets/english.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1000,
+      "discountPrice": 700,
+      "bookLink": "#"
+    },
+    {
+      "id": "4",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "bookLink": "#"
+    }
+  ],
+  "workshops": [
+    {
+      "id": "1",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "bookLink": "#"
+    },
+    {
+      "id": "2",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "bookLink": "#"
+    },
+    {
+      "id": "3",
+      "title": "Art Workshop",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "bookLink": "#"
+    },
+    {
+      "id": "4",
+      "title": "Marketing Workshop",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "bookLink": "#"
+    }
+  ],
+  "interships": [
+    {
+      "id": "1",
+      "title": "Drawing Intership",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "bookLink": "#"
+    },
+    {
+      "id": "2",
+      "title": "Programming Intership",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "bookLink": "#"
+    },
+    {
+      "id": "3",
+      "title": "Art Intership",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "bookLink": "#"
+    },
+    {
+      "id": "4",
+      "title": "Marketing Intership",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "bookLink": "#"
+    }
+  ],
+  "instractors": [
+    {
+      "id": "1",
+      "name": "Mohamed Ahmed",
+      "image": "assets/inst2.jpg",
+      "description": "Business",
+      "exp": 8,
+      "courses": [
+        "1"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Eman Seif",
+      "image": "assets/inst4.jpeg",
+      "description": "Developer",
+      "exp": 10,
+      "courses": [
+        "3"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Yousef Ibrahim",
+      "image": "assets/inst3.jpg",
+      "description": "Marketing",
+      "exp": 4,
+      "courses": []
+    },
+    {
+      "id": "4",
+      "name": "Ahmed Gamal",
+      "image": "assets/inst2.jpg",
+      "description": "Art Director",
+      "exp": 3,
+      "courses": [
+        "2"
+      ]
+    }
+  ]
+}
