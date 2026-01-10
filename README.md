@@ -1,7 +1,10 @@
 <p align="center">
-  <img src="https://github.com/nahla-ibrahim/Pledge-Website/blob/main/public/logo.png" alt="Pledge Logo" width="120" />
+  <img src="https://raw.githubusercontent.com/nahla-ibrahim/Pledge-Website/main/public/logo.png" width="120" />
+  <br/>
+  <a href="https://nahla-ibrahim.github.io/Pledge-Website/">
+    <strong>Live Demo 🔗</strong>
+  </a>
 </p>
-
 # Pledge Website
 
 A modern corporate website for **Pledge**, a company that provides  
