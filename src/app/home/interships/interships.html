@@ -8,7 +8,7 @@
       elit</p>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
       @for(intership of interships(); track intership.id) {
-      <app-courses-card [data]="intership" />}
+      <app-courses-card [data]="intership" [type]="'interships'" />}
     </div>
     <button
       class="bg-linear-to-r bg-secondary  py-3 px-5 cursor-pointer hover:from-dark-secondary  hover:to-dark-secondary hover:via-secondary  mt-10 text-white  rounded-md  transition-all font-medium hover:font-bold">

@@ -13,7 +13,6 @@ export class allServices {
   getData(): Observable<apiTypes> {
     return this.http.get<apiTypes>(this.apiUrl).pipe(
       map((res) => {
-        console.log(res);
         return res;
       }),
       catchError((err: any) => {

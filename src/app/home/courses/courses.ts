@@ -2,6 +2,7 @@ import { Component, inject, OnInit, signal } from '@angular/core';
 import { CoursesCard } from '../../shared/courses-card/courses-card';
 import { CourseType } from '../../Types';
 import { allServices } from '../../services/allServices';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-courses',
@@ -23,5 +24,9 @@ export class Courses implements OnInit {
       },
       error: (err) => console.log(Error),
     });
+  }
+  router = inject(Router);
+  enroll(courseId: string) {
+    this.router.navigate(['enroll', 'course', courseId]);
   }
 }

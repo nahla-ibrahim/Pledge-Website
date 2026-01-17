@@ -12,11 +12,10 @@
       <p class="text-secondary font-medium mb-3"> {{data().discountPrice}} EGP <span
           class="line-through ms-3">{{data().price}}</span></p>
 
-      <a [href]="data().bookLink"> <button class="w-full bg-linear-to-r from-bg/70 via-bg/20 to-bg/70 rounded-lg py-2 cursor-pointer hover:bg-primary/60 dark:from-dark-primary dark:to-primary
-        my-1.5 transition-all hover:text-white">Book
-          Now
-        </button>
-      </a>
+      <button class="w-full bg-linear-to-r from-bg/70 via-bg/20 to-bg/70 rounded-lg py-2 cursor-pointer hover:bg-primary/60 dark:from-dark-primary dark:to-primary
+        my-1.5 transition-all hover:text-white" (click)="enroll(data().id)">Book
+        Now
+      </button>
     </div>
 
   </div>

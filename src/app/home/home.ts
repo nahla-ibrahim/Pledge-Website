@@ -12,18 +12,7 @@ import { Interships } from './interships/interships';
 
 @Component({
   selector: 'app-home',
-  imports: [
-    Header,
-    TrustedBy,
-    Courses,
-    Why,
-    Nav,
-    Instractors,
-    Testimonials,
-    Footer,
-    Workshop,
-    Interships,
-  ],
+  imports: [Header, TrustedBy, Courses, Why, Instractors, Testimonials, Workshop, Interships],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

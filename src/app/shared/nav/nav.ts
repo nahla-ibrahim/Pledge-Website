@@ -8,10 +8,11 @@ import {
   faClose,
   faAngleDown,
 } from '@fortawesome/free-solid-svg-icons';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-nav',
-  imports: [FontAwesomeModule],
+  imports: [FontAwesomeModule, RouterLink],
   templateUrl: './nav.html',
   styleUrl: './nav.css',
 })
@@ -61,5 +62,9 @@ export class Nav implements OnInit {
   @HostListener('window:scroll')
   onWindowScroll() {
     this.isScrolled.set(window.scrollY > 50);
+  }
+
+  openNewRoute() {
+    this.isOpen = signal(false);
   }
 }
