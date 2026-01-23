@@ -1,0 +1,30 @@
+<section
+  class="bg-bg bg-linear-to-t from-white to-bg pt-24 pb-10 overflow-hidden dark:from-dark-primary dark:to-primary/70">
+  <div class="container px-3 mx-auto ">
+
+    <app-filter-and-search [selectedCategory]="selectedCategory()" (search)="  searchFunction($event)"
+      (categoryChange)="changeCategory($event)" />
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
+      @for (course of filterdCourses(); track course.id) {
+      <app-courses-card [data]="course" [type]="'courses'" />
+      }
+    </div>
+    @if(loading()){
+    <h1 class="text-center text-gray-500 my-6"> LOADING ... </h1>
+    }
+
+    @if(hasMore() && !loading()){
+    <div appInfinityScroll (isIntersecting)=" loadMore()">
+    </div>
+
+    }
+    @if (!hasMore()) {
+    <p class="text-center text-gray-500 my-8 ">
+      No more courses to show
+    </p>
+
+    }
+  </div>
+</section>
+
+<hr class="text-bg ">

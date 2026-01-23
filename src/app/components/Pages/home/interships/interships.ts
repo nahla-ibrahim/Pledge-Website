@@ -1,7 +1,7 @@
 import { Component, inject, signal } from '@angular/core';
-import { allServices } from '../../services/allServices';
-import { CourseType } from '../../Types';
-import { CoursesCard } from '../../shared/courses-card/courses-card';
+import { allServices } from '../../../../services/allServices';
+import { CourseType } from '../../../../Types';
+import { CoursesCard } from '../../../shared/courses-card/courses-card';
 
 @Component({
   selector: 'app-interships',

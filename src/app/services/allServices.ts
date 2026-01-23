@@ -18,7 +18,7 @@ export class allServices {
       catchError((err: any) => {
         console.log('Error Featching Data');
         return [];
-      })
+      }),
     );
   }
 }

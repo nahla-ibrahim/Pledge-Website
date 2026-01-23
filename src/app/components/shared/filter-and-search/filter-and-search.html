@@ -1,0 +1,21 @@
+  <div class="relative max-w-5xl mx-auto mt-6 mb-16
+           bg-white/80 dark:bg-dark/80 backdrop-blur-xl
+           rounded-3xl shadow-2xl p-6 flex flex-col md:flex-row gap-4  dark:bg-bg">
+
+    <input type="text" #search placeholder="Search courses..." class="flex-1 px-6 py-4 rounded-2xl border border-gray-300
+             focus:ring-2 focus:ring-primary outline-none text-gray-800 placeholder:text-gray-500 dark:border-primary"
+      (input)="searchFunction(search.value)" />
+    <select #selectedCategory class="px-6 py-4 rounded-2xl border border-gray-300 placeholder:text-gray-500 
+              outline-none text-gray-800 focus:ring-2 focus:ring-primary dark:border-primary
+            " (change)="changeCategory(selectedCategory.value)">
+      <option value="" selected>
+        all courses
+      </option>
+      @for (selectedCategory of categories(); track $index) {
+      <option [value]="selectedCategory ">
+        {{selectedCategory }}
+      </option>
+      }
+    </select>
+
+  </div>

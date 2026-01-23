@@ -1,5 +1,5 @@
 import { Component, input } from '@angular/core';
-import { InstractorType } from '../../Types';
+import { InstractorType } from '../../../Types';
 
 @Component({
   selector: 'app-instructor-card',

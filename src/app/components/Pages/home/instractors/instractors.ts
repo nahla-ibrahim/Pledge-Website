@@ -1,7 +1,7 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
-import { InstructorCard } from '../../shared/instructor-card/instructor-card';
-import { InstractorType } from '../../Types';
-import { allServices } from '../../services/allServices';
+import { InstructorCard } from '../../../shared/instructor-card/instructor-card';
+import { InstractorType } from '../../../../Types';
+import { allServices } from '../../../../services/allServices';
 
 @Component({
   selector: 'app-instractors',

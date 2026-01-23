@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Nav } from '../../shared/nav/nav';
+import { Nav } from '../../../shared/nav/nav';
 
 @Component({
   selector: 'app-header',

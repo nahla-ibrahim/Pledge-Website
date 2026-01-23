@@ -4,6 +4,9 @@ export interface apiTypes {
   interships: CourseType[];
   instractors: InstractorType[];
 }
+export interface categories {
+  category: 'Frontend' | 'Backend' | 'UI/UX' | 'Mobile';
+}
 
 export interface CourseType {
   id: string;
@@ -12,7 +15,7 @@ export interface CourseType {
   description: string;
   price: number;
   discountPrice: number;
-  bookLink: string;
+  category: 'Frontend' | 'Backend' | 'UI/UX' | 'Mobile';
 }
 
 export interface InstractorType {

@@ -7,7 +7,7 @@
       "description": "lorem kldemke rfker wkdwq",
       "price": 1500,
       "discountPrice": 1200,
-      "bookLink": "#"
+      "category": "Frontend"
     },
     {
       "id": "2",
@@ -16,7 +16,7 @@
       "description": "lorem kldemke rfker wkdwq",
       "price": 1800,
       "discountPrice": 1400,
-      "bookLink": "#"
+      "category": "UI/UX"
     },
     {
       "id": "3",
@@ -25,16 +25,232 @@
       "description": "lorem kldemke rfker wkdwq",
       "price": 1000,
       "discountPrice": 700,
-      "bookLink": "#"
+      "category": "Backend"
     },
     {
       "id": "4",
+      "title": "Mobile",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile"
+    },
+    {
+      "id": "5",
       "title": "Marketing",
       "image": "assets/header1.png",
       "description": "lorem kldemke rfker wkdwq ",
       "price": 1100,
       "discountPrice": 900,
-      "bookLink": "#"
+      "category": "Backend"
+    },
+    {
+      "id": "6",
+      "title": "UI/UX",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "7",
+      "title": "Mobile",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile"
+    },
+    {
+      "id": "8",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend"
+    },
+    {
+      "id": "9",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "10",
+      "title": "Mobile",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile"
+    },
+    {
+      "id": "11",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "12",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "13",
+      "title": "Mobile",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile"
+    },
+    {
+      "id": "14",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend"
+    },
+    {
+      "id": "15",
+      "title": "Mobile",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile"
+    },
+    {
+      "id": "16",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend"
+    },
+    {
+      "id": "17",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "18",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "19",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend"
+    },
+    {
+      "id": "20",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile"
+    },
+    {
+      "id": "21",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "22",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend"
+    },
+    {
+      "id": "23",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "24",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile"
+    },
+    {
+      "id": "25",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend"
+    },
+    {
+      "id": "26",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "27",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile"
+    },
+    {
+      "id": "28",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend"
     }
   ],
   "workshops": [
@@ -45,7 +261,7 @@
       "description": "lorem kldemke rfker wkdwq",
       "price": 1300,
       "discountPrice": 1150,
-      "bookLink": "#"
+      "category": "Frontend"
     },
     {
       "id": "2",
@@ -54,7 +270,7 @@
       "description": "lorem kldemke rfker wkdwq",
       "price": 1400,
       "discountPrice": 1300,
-      "bookLink": "#"
+      "category": "Backend"
     },
     {
       "id": "3",
@@ -63,7 +279,7 @@
       "description": "lorem kldemke rfker wkdwq",
       "price": 1400,
       "discountPrice": 900,
-      "bookLink": "#"
+      "category": "UI/UX"
     },
     {
       "id": "4",
@@ -72,7 +288,7 @@
       "description": "lorem kldemke rfker wkdwq ",
       "price": 1100,
       "discountPrice": 900,
-      "bookLink": "#"
+      "category": "Backend"
     }
   ],
   "interships": [
@@ -83,7 +299,7 @@
       "description": "lorem kldemke rfker wkdwq",
       "price": 1300,
       "discountPrice": 1150,
-      "bookLink": "#"
+      "category": "Frontend"
     },
     {
       "id": "2",
@@ -92,7 +308,7 @@
       "description": "lorem kldemke rfker wkdwq",
       "price": 1400,
       "discountPrice": 1300,
-      "bookLink": "#"
+      "category": "Backend"
     },
     {
       "id": "3",
@@ -101,7 +317,7 @@
       "description": "lorem kldemke rfker wkdwq",
       "price": 1400,
       "discountPrice": 900,
-      "bookLink": "#"
+      "category": "UI/UX"
     },
     {
       "id": "4",
@@ -110,7 +326,7 @@
       "description": "lorem kldemke rfker wkdwq ",
       "price": 1100,
       "discountPrice": 900,
-      "bookLink": "#"
+      "category": "Frontend"
     }
   ],
   "instractors": [

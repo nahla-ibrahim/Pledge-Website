@@ -1,6 +1,42 @@
 <section
   class="bg-bg bg-linear-to-t from-bg to-white pt-24 pb-10 overflow-hidden dark:from-dark-primary dark:to-primary/70 ">
   <div class="container px-3 mx-auto flex items-center justify-center">
+
+    @if (isEnroll()){
+    <div class=" flex items-center justify-center my-5 p-8">
+      <div class="bg-white dark:bg-primary rounded-3xl p-8 max-w-md w-full 
+           text-center shadow-2xl animate-scaleIn ">
+
+        <div class="mx-auto mb-4 w-20 h-20 rounded-full
+                bg-bg flex items-center justify-center">
+          <fa-icon [icon]="check" class="text-primary font-extrabold p-3 rounded-xl text-3xl dark:text-dark-primary">
+          </fa-icon>
+        </div>
+
+        <h2 class="text-2xl font-extrabold  dark:text-white mb-2">
+          Reservation Confirmed!
+        </h2>
+
+        <p class="text-gray-600 dark:text-gray-300 mb-4">
+          Your seat in
+          <span class="font-semibold text-primary dark:text-secondary">
+            {{ course()?.title }}
+          </span>
+          has been successfully reserved.
+        </p>
+
+        <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">
+          We’ll contact you soon with further details.
+        </p>
+
+        <button (click)="closeModal()" class="w-full py-3 rounded-xl font-semibold bg-linear-to-r from-primary via-bg/50 to-primary  cursor-pointer hover:bg-primary/60 dark:via-secondary/80 dark:from-dark-secondary dark:to-dark-secondary
+        my-1.5 transition transition-all hover:text-white hover:via-primary dark:hover:via-secondary">
+          Done
+        </button>
+      </div>
+    </div>
+    }
+    @else{
     <div class="relative w-full max-w-lg backdrop-blur-xl  dark:bg-primary/80 rounded-3xl shadow-2xl p-8  bg-white/90">
       <div class="flex items-center gap-4 mb-6">
         <img [src]="course()?.image" class="w-20 h-20 rounded-2xl object-cover shadow-md" />
@@ -92,40 +128,6 @@
 
       </form>
 
-    </div>
-    @if (isEnroll()){
-    <div
-      class="fixed inset-0 z-50 flex items-center justify-center bg-bg/30 backdrop-blur-lg  dark:bg-dark-primary/50 ">
-      <div class="bg-white dark:bg-primary rounded-3xl p-8 max-w-md w-full 
-           text-center shadow-2xl animate-scaleIn">
-
-        <div class="mx-auto mb-4 w-20 h-20 rounded-full
-                bg-bg flex items-center justify-center">
-          <fa-icon [icon]="check" class="text-primary font-extrabold p-3 rounded-xl text-3xl dark:text-dark-primary">
-          </fa-icon>
-        </div>
-
-        <h2 class="text-2xl font-extrabold  dark:text-white mb-2">
-          Reservation Confirmed!
-        </h2>
-
-        <p class="text-gray-600 dark:text-gray-300 mb-4">
-          Your seat in
-          <span class="font-semibold text-primary dark:text-secondary">
-            {{ course()?.title }}
-          </span>
-          has been successfully reserved.
-        </p>
-
-        <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">
-          We’ll contact you soon with further details.
-        </p>
-
-        <button (click)="closeModal()" class="w-full py-3 rounded-xl font-semibold bg-linear-to-r from-primary via-bg/50 to-primary  cursor-pointer hover:bg-primary/60 dark:via-secondary/80 dark:from-dark-secondary dark:to-dark-secondary
-        my-1.5 transition transition-all hover:text-white hover:via-primary dark:hover:via-secondary">
-          Done
-        </button>
-      </div>
     </div>
     }
   </div>

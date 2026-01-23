@@ -1,5 +1,5 @@
 import { Component, inject, input } from '@angular/core';
-import { CourseType } from '../../Types';
+import { CourseType } from '../../../Types';
 import { Router } from '@angular/router';
 
 @Component({

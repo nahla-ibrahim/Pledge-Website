@@ -1,10 +1,10 @@
 import { AfterViewInit, Component, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-import { Home } from './home/home';
-import { Loader } from './loader/loader';
-import { Nav } from './shared/nav/nav';
-import { Footer } from './shared/footer/footer';
+import { Home } from './components/Pages/home/home';
+import { Loader } from './components/shared/loader/loader';
+import { Nav } from './components/shared/nav/nav';
+import { Footer } from './components/shared/footer/footer';
 
 @Component({
   selector: 'app-root',
@@ -21,8 +21,6 @@ export class App implements OnInit, AfterViewInit {
   }
   ngOnInit(): void {
     const theme = localStorage.getItem('theme');
-    console.log(theme);
-    console.log(document.documentElement);
 
     if (theme === 'dark') {
       document.documentElement.classList.add('dark');

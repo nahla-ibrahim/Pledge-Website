@@ -1,7 +1,7 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { allServices } from '../services/allServices';
-import { CourseType } from '../Types';
+import { allServices } from '../../../services/allServices';
+import { CourseType } from '../../../Types';
 import { map } from 'rxjs';
 import { FormControl, ReactiveFormsModule, FormGroup, Validators } from '@angular/forms';
 import { NgClass } from '@angular/common';
@@ -24,14 +24,14 @@ export class EnrollForm implements OnInit {
   check = faCheck;
 
   ngOnInit(): void {
-    type typeOfCourses = "'courses' | 'interships' | 'workshops'";
+    type typeOfCourses = 'courses' | 'interships' | 'workshops';
     const id = this.route.snapshot.paramMap.get('id');
     const type = this.route.snapshot.paramMap.get('type') as typeOfCourses;
     if (!id) return;
     this.courseId = id;
     this.services
       .getData()
-      .pipe(map((res) => res.workshops.find((x) => x.id === this.courseId)))
+      .pipe(map((res) => res[type].find((x) => x.id === this.courseId)))
       .subscribe((course) => this.course.set(course ?? null));
   }
 
