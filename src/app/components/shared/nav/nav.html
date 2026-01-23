@@ -29,7 +29,7 @@
            transition-all duration-200
            translate-y-2 group-hover:translate-y-0 overflow-hidden">
             <li>
-              <a href="#courses" class="block px-4 py-2 text-sm
+              <a routerLink="/allcourses" class="block px-4 py-2 text-sm
                 hover:bg-gray-100 dark:hover:bg-primary hover:text-secondary">
                 Courses
               </a>
@@ -41,7 +41,7 @@
               </a>
             </li>
             <li>
-              <a href="#internship" class="block px-4 py-2 text-sm
+              <a routerLink="/allinternships" class="block px-4 py-2 text-sm
                 hover:bg-gray-100 dark:hover:bg-primary hover:text-secondary">
                 Internship
               </a>
@@ -85,7 +85,7 @@
          duration-200 ease-out
 " [class.openServices]="openServices()">
           <li (click)="openNewRoute()">
-            <a href="#courses" class="block px-5 pt-6 pb-2 text-sm
+            <a routerLink="/allcourses" class="block px-5 pt-6 pb-2 text-sm
                 hover:bg-gray-100 hover:text-secondary dark:hover:bg-transparent">
               Courses
             </a>
@@ -97,7 +97,7 @@
             </a>
           </li>
           <li class="border-b border-primary/30 dark:border-bg" (click)="openNewRoute()">
-            <a href="#internship" class="block px-5 pb-6 pt-2 text-sm
+            <a routerLink="/allinternships" class="block px-5 pb-6 pt-2 text-sm
                 hover:bg-gray-100 hover:text-secondary dark:hover:bg-transparent">
               Internship
             </a>

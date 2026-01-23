@@ -8,11 +8,11 @@ import { Instractors } from './instractors/instractors';
 import { Testimonials } from './testimonials/testimonials';
 import { Footer } from '../../shared/footer/footer';
 import { Workshop } from './workshop/workshop';
-import { Interships } from './interships/interships';
+import { internships } from './internships/internships';
 
 @Component({
   selector: 'app-home',
-  imports: [Header, TrustedBy, Courses, Why, Instractors, Testimonials, Workshop, Interships],
+  imports: [Header, TrustedBy, Courses, Why, Instractors, Testimonials, Workshop, internships],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

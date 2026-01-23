@@ -9,7 +9,7 @@
               outline-none text-gray-800 focus:ring-2 focus:ring-primary dark:border-primary
             " (change)="changeCategory(selectedCategory.value)">
       <option value="" selected>
-        all courses
+        all
       </option>
       @for (selectedCategory of categories(); track $index) {
       <option [value]="selectedCategory ">

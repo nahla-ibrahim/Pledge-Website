@@ -24,7 +24,7 @@ export class EnrollForm implements OnInit {
   check = faCheck;
 
   ngOnInit(): void {
-    type typeOfCourses = 'courses' | 'interships' | 'workshops';
+    type typeOfCourses = 'courses' | 'internships' | 'workshops';
     const id = this.route.snapshot.paramMap.get('id');
     const type = this.route.snapshot.paramMap.get('type') as typeOfCourses;
     if (!id) return;

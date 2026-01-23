@@ -291,10 +291,10 @@
       "category": "Backend"
     }
   ],
-  "interships": [
+  "internships": [
     {
       "id": "1",
-      "title": "Drawing Intership",
+      "title": "Drawing internship",
       "image": "assets/drawing.jpeg",
       "description": "lorem kldemke rfker wkdwq",
       "price": 1300,
@@ -303,7 +303,7 @@
     },
     {
       "id": "2",
-      "title": "Programming Intership",
+      "title": "Programming internship",
       "image": "assets/programming.webp",
       "description": "lorem kldemke rfker wkdwq",
       "price": 1400,
@@ -312,7 +312,7 @@
     },
     {
       "id": "3",
-      "title": "Art Intership",
+      "title": "Art internship",
       "image": "assets/digitalDrawing.jpeg",
       "description": "lorem kldemke rfker wkdwq",
       "price": 1400,
@@ -321,7 +321,241 @@
     },
     {
       "id": "4",
-      "title": "Marketing Intership",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "5",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "6",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "7",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "8",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "9",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "10",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "11",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "12",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "13",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "14",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "15",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "16",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "17",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "18",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "19",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "20",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "21",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "22",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "23",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "24",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "25",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "26",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "27",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "28",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend"
+    },
+    {
+      "id": "29",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX"
+    },
+    {
+      "id": "30",
+      "title": "Marketing internship",
       "image": "assets/header1.png",
       "description": "lorem kldemke rfker wkdwq ",
       "price": 1100,

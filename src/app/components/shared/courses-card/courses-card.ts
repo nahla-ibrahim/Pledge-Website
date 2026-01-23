@@ -14,5 +14,5 @@ export class CoursesCard {
     this.router.navigate(['enroll', this.type(), courseId]);
   }
   data = input.required<CourseType>();
-  type = input.required<'courses' | 'interships' | 'workshops'>();
+  type = input.required<'courses' | 'internships' | 'workshops'>();
 }
