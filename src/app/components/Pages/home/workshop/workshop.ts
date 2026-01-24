@@ -19,8 +19,9 @@ export class Workshop implements OnInit {
   getAllCourses() {
     this.courseServ.getData().subscribe({
       next: (res) => {
-        this.workshops.set(res.workshops);
-        console.log(res.workshops);
+        const changeResponse = res.internships.slice(0, 4);
+
+        this.workshops.set(changeResponse);
       },
       error: (err) => console.log(Error),
     });

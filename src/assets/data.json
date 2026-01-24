@@ -289,6 +289,312 @@
       "price": 1100,
       "discountPrice": 900,
       "category": "Backend"
+    },
+    {
+      "id": "5",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "6",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "7",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "8",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "9",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "10",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "11",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "12",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "13",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "14",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "15",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "16",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "17",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "18",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "19",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "20",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "21",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "22",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "23",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "24",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "25",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "26",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "27",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "28",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "29",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "30",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "31",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "32",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "33",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "34",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "35",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "36",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
+    },
+    {
+      "id": "37",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend"
+    },
+    {
+      "id": "38",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend"
     }
   ],
   "internships": [
