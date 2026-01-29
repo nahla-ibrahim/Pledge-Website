@@ -16,6 +16,7 @@ export interface CourseType {
   price: number;
   discountPrice: number;
   category: 'Frontend' | 'Backend' | 'UI/UX' | 'Mobile';
+  instructorId: string;
 }
 
 export interface InstractorType {

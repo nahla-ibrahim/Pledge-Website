@@ -1,0 +1,12 @@
+<section
+  class="bg-bg bg-linear-to-t from-white to-bg pt-24 pb-10 overflow-hidden dark:from-primary/70 dark:to-dark-primary">
+  <div class="container px-3 mx-auto py-16">
+
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
+      @for (instructor of instructors(); track instructor.id) {
+      <app-instructor-card [data]="instructor" />
+      }
+    </div>
+  </div>
+</section>

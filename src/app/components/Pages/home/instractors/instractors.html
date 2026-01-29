@@ -8,7 +8,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
       @for (instructor of instructors(); track instructor.id) {
       <app-instructor-card [data]="instructor" />}
-    </div> <button
+    </div> <button routerLink="/allinstructors"
       class="bg-linear-to-r bg-secondary  py-3 px-5 cursor-pointer hover:from-dark-secondary  hover:to-dark-secondary hover:via-secondary  mt-10 text-white  rounded-md  transition-all font-medium hover:font-bold">
       VIEW
       ALL
