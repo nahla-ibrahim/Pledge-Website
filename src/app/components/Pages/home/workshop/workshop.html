@@ -10,7 +10,7 @@
       @for(workshop of workshops(); track workshop.id) {
       <app-courses-card [data]="workshop" [type]="'workshops'" />}
     </div>
-    <button
+    <button routerLink="/allworkshops"
       class="bg-linear-to-r bg-secondary  py-3 px-5 cursor-pointer hover:from-dark-secondary  hover:to-dark-secondary hover:via-secondary  mt-10 text-white  rounded-md  transition-all font-medium hover:font-bold">
       VIEW
       ALL

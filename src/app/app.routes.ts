@@ -4,6 +4,8 @@ import { Home } from './components/Pages/home/home';
 import { AllCourses } from './components/Pages/all-courses/all-courses';
 import { Allinternship } from './components/Pages/all-internship/all-internship';
 import { AllWorkshop } from './components/Pages/all-workshop/all-workshop';
+import { About } from './components/Pages/about/about';
+import { ContactUs } from './components/Pages/contact-us/contact-us';
 
 export const routes: Routes = [
   {
@@ -25,5 +27,13 @@ export const routes: Routes = [
   {
     path: 'allworkshops',
     component: AllWorkshop,
+  },
+  {
+    path: 'about',
+    component: About,
+  },
+  {
+    path: 'contactus',
+    component: ContactUs,
   },
 ];

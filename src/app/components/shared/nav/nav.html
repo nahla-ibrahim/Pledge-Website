@@ -15,7 +15,7 @@
         [class.open]="isOpen()">
         <li class="hover:text-secondary transition-colors" routerLink="/">HOME</li>
         <li class="hover:text-secondary transition-colors" routerLink="/about">ABOUT</li>
-        <li class="hover:text-secondary transition-colors">CONTACT US</li>
+        <li class="hover:text-secondary transition-colors" routerLink="/contactus">CONTACT US</li>
         <li class="relative group">
           <span class="flex items-center gap-1 hover:text-secondary
           transition-colors">
@@ -35,7 +35,7 @@
               </a>
             </li>
             <li>
-              <a href="#workshop" class="block px-4 py-2 text-sm
+              <a routerLink="/allworkshops" class="block px-4 py-2 text-sm
                 hover:bg-gray-100 dark:hover:bg-primary hover:text-secondary ">
                 Workshop
               </a>
@@ -65,8 +65,10 @@
     <ul class="flex flex-col cursor-pointer text-sm items-center ">
       <li class=" border-b w-full p-5 border-primary/30 dark:border-bg " routerLink="/" (click)="openNewRoute()">HOME
       </li>
-      <li class=" border-b w-full p-5 border-primary/30 dark:border-bg " (click)="openNewRoute()">ABOUT</li>
-      <li class=" border-b w-full p-5 border-primary/30 dark:border-bg " (click)=" openNewRoute()">CONTACT US
+      <li class=" border-b w-full p-5 border-primary/30 dark:border-bg " (click)="openNewRoute()" routerLink="/about">
+        ABOUT</li>
+      <li class=" border-b w-full p-5 border-primary/30 dark:border-bg " (click)=" openNewRoute()"
+        routerLink="/contactus">CONTACT US
       </li>
 
       <li class="relative group w-full">
@@ -91,7 +93,7 @@
             </a>
           </li>
           <li (click)="openNewRoute()">
-            <a href="#workshop" class="block px-5 py-2 text-sm
+            <a routerLink="/allworkshops" class="block px-5 py-2 text-sm
                 hover:bg-gray-100 hover:text-secondary dark:hover:bg-transparent">
               Workshop
             </a>
