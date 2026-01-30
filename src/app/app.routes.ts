@@ -1,11 +1,5 @@
 import { Routes } from '@angular/router';
-import { EnrollForm } from './components/Pages/enroll-form/enroll-form';
 import { Home } from './components/Pages/home/home';
-import { AllCourses } from './components/Pages/all-courses/all-courses';
-import { About } from './components/Pages/about/about';
-import { ContactUs } from './components/Pages/contact-us/contact-us';
-import { AllInstructors } from './components/Pages/all-instructors/all-instructors';
-import { InstructorsCourses } from './components/Pages/instructors-courses/instructors-courses';
 
 export const routes: Routes = [
   {
@@ -14,27 +8,33 @@ export const routes: Routes = [
   },
   {
     path: 'enroll/:type/:id',
-    component: EnrollForm,
+    loadComponent: () =>
+      import('./components/Pages/enroll-form/enroll-form').then((m) => m.EnrollForm),
   },
   {
     path: 'all/:type',
-    component: AllCourses,
+    loadComponent: () =>
+      import('./components/Pages/all-courses/all-courses').then((m) => m.AllCourses),
   },
-
   {
     path: 'about',
-    component: About,
+    loadComponent: () => import('./components/Pages/about/about').then((m) => m.About),
   },
   {
     path: 'contactus',
-    component: ContactUs,
+    loadComponent: () =>
+      import('./components/Pages/contact-us/contact-us').then((m) => m.ContactUs),
   },
   {
     path: 'allinstructors',
-    component: AllInstructors,
+    loadComponent: () =>
+      import('./components/Pages/all-instructors/all-instructors').then((m) => m.AllInstructors),
   },
   {
     path: 'instructorCourses/:id',
-    component: InstructorsCourses,
+    loadComponent: () =>
+      import('./components/Pages/instructors-courses/instructors-courses').then(
+        (m) => m.InstructorsCourses,
+      ),
   },
 ];
