@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 import { Home } from './components/Pages/home/home';
+import { NotFound } from './components/Pages/not-found/not-found';
 
 export const routes: Routes = [
   {
@@ -36,5 +37,9 @@ export const routes: Routes = [
       import('./components/Pages/instructors-courses/instructors-courses').then(
         (m) => m.InstructorsCourses,
       ),
+  },
+  {
+    path: '**',
+    component: NotFound,
   },
 ];

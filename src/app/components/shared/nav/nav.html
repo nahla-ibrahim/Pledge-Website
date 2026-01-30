@@ -131,7 +131,7 @@
         Search
       </h3>
 
-      <button (click)="closeSearch()" class="text-gray-400 hover:text-red-500 text-xl">
+      <button (click)="closeSearch()" class="text-gray-400 hover:text-red-500 text-xl cursor-pointer">
         ✕
       </button>
     </div>
@@ -139,7 +139,7 @@
 
     <div class="flex gap-3 items-center justify-center mb-6">
       @for (item of btn; track $index) {
-      <button class="px-5 py-2 rounded-full text-sm font-medium
+      <button class="px-5 py-2 rounded-full text-sm font-medium cursor-pointer
            
            transition " (click)=" reloadcourses(item)" [ngClass]="
             item === activeBtn()
@@ -149,8 +149,9 @@
       </button>}
     </div>
 
-    <input type="text" [(ngModel)]="searchTerm" placeholder="Search for a course..." class="w-full mb-5 px-4 py-2 rounded-xl border
-             focus:outline-none focus:ring-2 focus:ring-primary/40 " (input)="filteredCourses(searchTerm())" />
+    <input type="text" [(ngModel)]="searchTerm" [placeholder]="'Search for ' + activeBtn()"
+      class="w-full mb-5 px-4 py-2 rounded-xl border
+             focus:outline-none focus:ring-2 focus:ring-primary/40 placeholder:text-gray-400 dark:text-gray-300 dark:placeholder:text-gray-600" (input)="filteredCourses(searchTerm())" />
 
     <div class="space-y-4 max-h-80 overflow-y-auto pr-1">
 
@@ -188,7 +189,7 @@
       }
       @if (courses().length === 0) {
       <p class=" text-center text-sm text-gray-400">
-        No courses found
+        No {{activeBtn() }} found
       </p>
       }
 
