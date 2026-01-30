@@ -22,7 +22,6 @@ export class internships {
       next: (res) => {
         const changeResponse = res.internships.slice(0, 4);
         this.internships.set(changeResponse);
-        console.log(res.internships);
       },
       error: (err) => console.log(Error),
     });

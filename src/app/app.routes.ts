@@ -2,8 +2,6 @@ import { Routes } from '@angular/router';
 import { EnrollForm } from './components/Pages/enroll-form/enroll-form';
 import { Home } from './components/Pages/home/home';
 import { AllCourses } from './components/Pages/all-courses/all-courses';
-import { Allinternship } from './components/Pages/all-internship/all-internship';
-import { AllWorkshop } from './components/Pages/all-workshop/all-workshop';
 import { About } from './components/Pages/about/about';
 import { ContactUs } from './components/Pages/contact-us/contact-us';
 import { AllInstructors } from './components/Pages/all-instructors/all-instructors';
@@ -19,17 +17,10 @@ export const routes: Routes = [
     component: EnrollForm,
   },
   {
-    path: 'allcourses',
+    path: 'all/:type',
     component: AllCourses,
   },
-  {
-    path: 'allinternships',
-    component: Allinternship,
-  },
-  {
-    path: 'allworkshops',
-    component: AllWorkshop,
-  },
+
   {
     path: 'about',
     component: About,

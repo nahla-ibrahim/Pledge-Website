@@ -1,10 +1,10 @@
-import { Component, inject, OnChanges, OnInit, signal, SimpleChanges } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
 import { allServices } from '../../../services/allServices';
 import { categories, CourseType } from '../../../Types';
 import { CoursesCard } from '../../shared/courses-card/courses-card';
 import { InfinityScroll } from '../../../directive/infinity-scroll';
 import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { FilterAndSearch } from '../../shared/filter-and-search/filter-and-search';
 
 @Component({
@@ -13,8 +13,10 @@ import { FilterAndSearch } from '../../shared/filter-and-search/filter-and-searc
   templateUrl: './all-courses.html',
   styleUrl: './all-courses.css',
 })
-export class AllCourses {
+export class AllCourses implements OnInit {
   router = inject(Router);
+  route = inject(ActivatedRoute);
+  type = signal<'courses' | 'internships' | 'workshops'>('courses');
   getServices = inject(allServices);
   allCourses = signal<CourseType[]>([]);
   filterdCourses = signal<CourseType[]>([]);
@@ -25,22 +27,23 @@ export class AllCourses {
   loading = signal<boolean>(false);
   hasMore = signal<boolean>(true);
 
+  ngOnInit(): void {
+    this.route.paramMap.subscribe((params) => {
+      this.type.set(params.get('type') as 'courses' | 'internships' | 'workshops');
+      this.resetAndReload();
+    });
+  }
+
   enroll(courseId: string) {
-    this.router.navigate(['enroll', 'course', courseId]);
+    this.router.navigate(['enroll', this.type(), courseId]);
   }
 
   filterCourses(cat: string, search: string, currentCourses: CourseType[]) {
-    console.log(this.allCourses().length);
-    console.log(this.page());
     const couress = currentCourses.filter(
       (course) =>
         (course.category == cat || cat == '') &&
         course.title.toLowerCase().includes(search.toLowerCase()),
     );
-    // if (couress.length < 8) {
-    //   this.loadMore();
-    //   console.log(this.filterdCourses());
-    // }
 
     this.filterdCourses.set(couress);
     console.log(this.filterdCourses());
@@ -62,12 +65,14 @@ export class AllCourses {
     let curentPage = this.page();
     try {
       this.getServices.getData().subscribe((res) => {
-        const courses = res.courses.slice(curentPage * 8, curentPage * 8 + 8);
+        const typeOfCourses = this.type();
+
+        const courses = res[typeOfCourses].slice(curentPage * 8, curentPage * 8 + 8);
         this.allCourses.set([...this.allCourses(), ...courses]);
 
         this.filterCourses(this.selectedCategory(), this.search(), this.allCourses());
 
-        if (res.courses.length <= curentPage * 8 + 8) {
+        if (res[typeOfCourses].length <= curentPage * 8 + 8) {
           this.hasMore.set(false);
         }
       });
@@ -78,5 +83,11 @@ export class AllCourses {
         this.loading.set(false);
       }, 200);
     }
+  }
+  resetAndReload() {
+    this.page.set(0);
+    this.allCourses.set([]);
+    this.hasMore.set(true);
+    this.loadMore();
   }
 }

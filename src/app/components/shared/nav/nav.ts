@@ -1,4 +1,4 @@
-import { Component, signal, HostListener, OnInit } from '@angular/core';
+import { Component, signal, HostListener, OnInit, inject } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {
   faBars,
@@ -8,11 +8,15 @@ import {
   faClose,
   faAngleDown,
 } from '@fortawesome/free-solid-svg-icons';
-import { RouterLink } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
+import { CourseType } from '../../../Types';
+import { allServices } from '../../../services/allServices';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-nav',
-  imports: [FontAwesomeModule, RouterLink],
+  imports: [FontAwesomeModule, RouterLink, CommonModule, FormsModule],
   templateUrl: './nav.html',
   styleUrl: './nav.css',
 })
@@ -23,6 +27,7 @@ export class Nav implements OnInit {
       this.isDark.set(true);
     }
   }
+
   bars = faBars;
   close = faClose;
   search = faSearch;
@@ -30,10 +35,19 @@ export class Nav implements OnInit {
   moon = faMoon;
   sun = faSun;
 
+  router = inject(Router);
+  route = inject(ActivatedRoute);
+  serve = inject(allServices);
+  courses = signal<CourseType[]>([]);
   isDark = signal<boolean>(false);
   isScrolled = signal(false);
   isOpen = signal(false);
   openServices = signal(false);
+  isSearchOpen = false;
+  searchTerm = signal<string>('');
+  btn: ('courses' | 'internships' | 'workshops')[] = ['courses', 'internships', 'workshops'];
+  activeBtn = signal<'courses' | 'internships' | 'workshops'>('courses');
+  currentID = signal<string>('');
 
   toggle() {
     this.isOpen.set(!this.isOpen());
@@ -45,19 +59,15 @@ export class Nav implements OnInit {
       document.documentElement.classList.add('dark');
       document.documentElement.classList.remove('light');
       this.isDark.set(true);
-      console.log(this.isDark());
     } else {
       localStorage.setItem('theme', 'light');
       document.documentElement.classList.add('light');
       document.documentElement.classList.remove('dark');
       this.isDark.set(false);
-      console.log(this.isDark());
-      console.log(this.isDark());
     }
   }
   toggleServices() {
     this.openServices.set(!this.openServices());
-    console.log(this.openServices());
   }
   @HostListener('window:scroll')
   onWindowScroll() {
@@ -66,5 +76,47 @@ export class Nav implements OnInit {
 
   openNewRoute() {
     this.isOpen = signal(false);
+  }
+
+  reloadcourses(type: 'courses' | 'internships' | 'workshops') {
+    this.searchTerm.set('');
+    this.courses.set([]);
+    this.activeBtn.set(type);
+  }
+
+  filteredCourses(text: string) {
+    this.searchTerm.set(text);
+
+    if (text === '') {
+      this.courses.set([]);
+    } else {
+      this.serve.getData().subscribe({
+        next: (res) => {
+          const filtered = res[this.activeBtn()].filter((course) =>
+            course.title.toLowerCase().includes(text.toLowerCase()),
+          );
+          this.courses.set(filtered);
+        },
+      });
+    }
+  }
+  openSearch() {
+    this.isSearchOpen = true;
+  }
+
+  closeSearch() {
+    this.isSearchOpen = false;
+    this.searchTerm.set('');
+    this.activeBtn.set('courses');
+    this.courses.set([]);
+  }
+
+  enroll(courseId: string) {
+    this.currentID.set(courseId);
+    this.isOpen.set(false);
+    this.isSearchOpen = false;
+    this.searchTerm.set('');
+    this.courses.set([]);
+    this.router.navigate(['enroll', this.activeBtn(), courseId]);
   }
 }

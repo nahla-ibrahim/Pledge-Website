@@ -2,11 +2,11 @@
   class="bg-bg bg-linear-to-t from-white to-bg pt-24 pb-10 overflow-hidden dark:from-dark-primary dark:to-primary/70">
   <div class="container px-3 mx-auto ">
 
-    <app-filter-and-search [selectedCategory]="selectedCategory()" (search)="  searchFunction($event)"
+    <app-filter-and-search [selectedCategory]="selectedCategory()" (search)="searchFunction($event)"
       (categoryChange)="changeCategory($event)" />
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
       @for (course of filterdCourses(); track course.id) {
-      <app-courses-card [data]="course" [type]="'courses'" />
+      <app-courses-card [data]="course" [type]="type()" />
       }
     </div>
     @if(loading()){

@@ -2,11 +2,11 @@ import { Component, inject, OnInit, signal } from '@angular/core';
 import { CoursesCard } from '../../../shared/courses-card/courses-card';
 import { CourseType } from '../../../../Types';
 import { allServices } from '../../../../services/allServices';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-courses',
-  imports: [CoursesCard],
+  imports: [CoursesCard, RouterLink],
   templateUrl: './courses.html',
   styleUrl: './courses.css',
 })
@@ -29,9 +29,5 @@ export class Courses implements OnInit {
   router = inject(Router);
   enroll(courseId: string) {
     this.router.navigate(['enroll', 'course', courseId]);
-  }
-
-  getAllCoursesRoute() {
-    this.router.navigate(['allcourses']);
   }
 }

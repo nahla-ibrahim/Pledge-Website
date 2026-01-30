@@ -20,8 +20,7 @@ export class Workshop implements OnInit {
   getAllCourses() {
     this.courseServ.getData().subscribe({
       next: (res) => {
-        const changeResponse = res.internships.slice(0, 4);
-
+        const changeResponse = res.workshops.slice(0, 4);
         this.workshops.set(changeResponse);
       },
       error: (err) => console.log(Error),

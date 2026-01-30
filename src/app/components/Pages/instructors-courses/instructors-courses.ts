@@ -13,6 +13,7 @@ import { NgClass } from '@angular/common';
 })
 export class InstructorsCourses implements OnInit {
   ngOnInit(): void {
+    console.log(this.activeBtn());
     this.reloadcourses(this.activeBtn());
   }
   instructorId: string = '';
@@ -21,7 +22,8 @@ export class InstructorsCourses implements OnInit {
   getServices = inject(allServices);
   instructorCourses = signal<CourseType[]>([]);
   btn = ['courses', 'internships', 'workshops'];
-  activeBtn = signal('Course');
+
+  activeBtn = signal('courses');
 
   reloadcourses(type: string) {
     this.activeBtn.set(type);
