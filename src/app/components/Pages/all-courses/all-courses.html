@@ -1,5 +1,5 @@
 <section
-  class="bg-bg bg-linear-to-t from-white to-bg pt-24 pb-10 overflow-hidden dark:from-dark-primary dark:to-primary/70">
+  class="min-h-screen bg-bg bg-linear-to-t from-white to-bg pt-24 pb-10 overflow-hidden dark:from-dark-primary dark:to-primary/70">
   <div class="container px-3 mx-auto ">
 
     <app-filter-and-search [selectedCategory]="selectedCategory()" (search)="searchFunction($event)"
@@ -9,6 +9,7 @@
       <app-courses-card [data]="course" [type]="type()" />
       }
     </div>
+
     @if(loading()){
     <h1 class="text-center text-gray-500 my-6"> LOADING ... </h1>
     }
@@ -16,15 +17,15 @@
     @if(hasMore() && !loading()){
     <div appInfinityScroll (isIntersecting)=" loadMore()">
     </div>
-
     }
+
     @if (!hasMore()) {
     <p class="text-center text-gray-500 my-8 ">
       No more courses to show
     </p>
-
     }
   </div>
+
 </section>
 
 <hr class="text-bg ">

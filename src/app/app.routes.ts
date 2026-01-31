@@ -34,10 +34,11 @@ export const routes: Routes = [
   {
     path: 'instructorCourses/:id',
     loadComponent: () =>
-      import('./components/Pages/instructors-courses/instructors-courses').then(
-        (m) => m.InstructorsCourses,
+      import('./components/Pages/instructor-profile/instructor-profile').then(
+        (m) => m.InstructorProfile,
       ),
   },
+
   {
     path: '**',
     component: NotFound,

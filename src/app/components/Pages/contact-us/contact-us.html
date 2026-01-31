@@ -1,5 +1,5 @@
 <section
-  class="bg-bg bg-linear-to-t from-white to-bg pt-24 pb-10 overflow-hidden dark:from-primary/70 dark:to-dark-primary">
+  class="min-h-screen bg-bg bg-linear-to-t from-white to-bg pt-24 pb-10 overflow-hidden dark:from-primary/70 dark:to-dark-primary flex justify-center items-center flex-col">
   <div class="container px-3 mx-auto py-16">
     <div class="max-w-4xl mx-auto px-6">
 
@@ -48,40 +48,25 @@
             Find us on Google Maps
           </p>
         </a>
-        <!-- facebook -->
-        <a href="https://www.facebook.com/pledge.eg/" target="_blank"
-          class="group bg-white rounded-2xl p-4 shadow-sm hover:shadow-lg transition dark:bg-bg">
+        <!-- social media -->
+       <div class=" bg-white rounded-2xl p-4 shadow-sm hover:shadow-lg transition dark:bg-bg "> 
           <p class="text-sm text-gray-400 dark:text-gray-700  mb-2">
             follow us on
           </p>
-          <p class="text-xl font-medium text-gray-900  group-hover:text-primary transition">
-            Facebook
-          </p>
-        </a>
-        <!-- instagram -->
-        <a href="https://www.instagram.com/pledge.eg" target="_blank"
-          class="group bg-white rounded-2xl p-4 shadow-sm hover:shadow-lg transition dark:bg-bg">
-          <p class="text-sm text-gray-400 dark:text-gray-700  mb-2">
-            follow us on
-          </p>
-          <p class="text-xl font-medium text-gray-900  group-hover:text-primary transition">
-            Instagram
-          </p>
-        </a>
-        <!-- linkedin -->
-        <a href="https://www.linkedin.com/company/pledge-training-company/?viewAsMember=true" target="_blank"
-          class="group bg-white rounded-2xl p-4 shadow-sm hover:shadow-lg transition dark:bg-bg">
-          <p class="text-sm text-gray-400 dark:text-gray-700  mb-2">
-            follow us on
-          </p>
-          <p class="text-xl font-medium text-gray-900  group-hover:text-primary transition">
-            LinkedIn
-          </p>
-        </a>
-
+          <div class="flex gap-8">
+              <a href="https://www.facebook.com/pledge.eg/" target="_blank" >
+                  <fa-icon [icon]="facebook" class="text-2xl font-medium text-gray-900  hover:text-primary transition "/>
+              </a>
+              <a href="https://www.linkedin.com/company/pledge-training-company/?viewAsMember=true" target="_blank" >
+                  <fa-icon [icon]="linkedin" class="text-2xl font-medium text-gray-900  hover:text-primary transition"/>
+              </a>
+              <a href="https://www.instagram.com/pledge.eg" target="_blank">
+                  <fa-icon [icon]="instagram" class="text-2xl font-medium text-gray-900  hover:text-primary transition"/>
+              </a>
+          </div>
+         
+        </div>       
       </div>
-
-
     </div>
   </div>
 </section>

@@ -46,7 +46,6 @@ export class AllCourses implements OnInit {
     );
 
     this.filterdCourses.set(couress);
-    console.log(this.filterdCourses());
   }
 
   changeCategory(cat: string) {
@@ -81,10 +80,12 @@ export class AllCourses implements OnInit {
     } finally {
       setTimeout(() => {
         this.loading.set(false);
-      }, 200);
+      }, 0);
     }
   }
   resetAndReload() {
+    this.selectedCategory.set('');
+    this.changeCategory(this.selectedCategory());
     this.page.set(0);
     this.allCourses.set([]);
     this.hasMore.set(true);

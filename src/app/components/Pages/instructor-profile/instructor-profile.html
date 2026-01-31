@@ -1,0 +1,49 @@
+<section
+  class="min-h-screen bg-bg bg-linear-to-t from-white to-bg pt-24 pb-10 overflow-hidden dark:from-primary/70 dark:to-dark-primary min-h-screen">
+  <div class="container px-3 mx-auto py-16">
+    <!-- instructor information  -->
+      <div class="bg-white/80 dark:bg-bg rounded-2xl shadow-lg p-8 flex flex-col md:flex-row  justify-between items-center mb-5">
+        <div class="flex items-center gap-4">
+           <img
+          [src]="instructor()?.image"
+          alt="Instructor"
+          class="w-40 h-40 rounded-full object-cover border-4 border-primary"
+        />
+
+        <div class="text-center md:text-left">
+          <h1 class="text-4xl font-extrabold text-gray-800">{{ instructor()?.name }}</h1>
+          <p class="text-xl text-gray-600 mt-2">{{ instructor()?.description }}</p>
+          <p class="text-gray-500 mt-1">{{ instructor()?.exp }} years of experience</p>
+        </div>
+        </div>
+       
+         <!-- button  -->
+        <div class="flex md:flex-col  flex-row justify-center  gap-3  h-full md:mt-0 mt-4.5">
+          @for (item of btn; track $index) {
+          <button class="px-3 sm:px-5 py-2 rounded-full text-sm font-medium
+              hover:bg-white hover:text-primary cursor-pointer
+              transition active:hover" (click)=" reloadcourses( item )" [ngClass]="
+                item === activeBtn()
+                  ? 'bg-white text-primary shadow-md shadow-primary/30'
+                  : 'bg-primary text-white shadow-md shadow-primary/30'">
+            {{ item }}
+
+          </button>
+          }
+        </div>
+      </div>
+
+     
+
+    <!-- instructor courses  -->
+  <div class="bg-bg/50 dark:bg-primary/50 rounded-2xl shadow-lg p-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">@for (course of instructorCourses();
+          track $index) {
+          <app-courses-card [data]="course" [type]="'courses'" />
+          }
+
+        </div>
+  </div>
+</div>
+</section>
+
