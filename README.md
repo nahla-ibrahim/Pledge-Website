@@ -9,12 +9,7 @@
 
 # Pledge Website
 
-A modern corporate website built with *Angular* for Pledge, offering Courses, Workshops, and Internship Programs.
-
-This portfolio-level frontend project showcases **clean architecture, scalability, and real-world Angular features**.
-
-Designed with a **smooth, responsive UI** and a focus on **user experience**, including **form validations and reusable components**.
-
+A modern corporate website for Pledge (a training courses company), built with Angular. Focused on clean architecture, scalable design, and reusable components. Designed with a responsive, user-friendly UI and built-in form validations to enhance the user experience.
 
 ---
 
