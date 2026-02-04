@@ -1,35 +1,44 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nahla-ibrahim/Pledge-Website/main/public/logo.png" width="120" />
+  <img src="https://raw.githubusercontent.com/nahla-ibrahim/Pledge-Website/main/public/logo.png](https://github.com/nahla-ibrahim/Pledge-Website/blob/main/src/assets/logo.png" width="120" />
   <br/>
   <a href="https://nahla-ibrahim.github.io/Pledge-Website/">
     <strong>Live Demo 🔗</strong>
   </a>
 </p>
+
+
 # Pledge Website
 
-A modern corporate website for **Pledge**, a company that provides  
-**Courses, Workshops, and Internship programs**.
+A modern corporate website built with *Angular* for Pledge, offering Courses, Workshops, and Internship Programs.
 
-The project focuses on a clean UI, smooth user experience, and a fully responsive design.
+This portfolio-level frontend project showcases **clean architecture, scalability, and real-world Angular features**.
+
+Designed with a **smooth, responsive UI** and a focus on **user experience**, including **form validations and reusable components**.
+
 
 ---
 
 ## Tech Stack
 
-- **Angular 20**
-- **Tailwind CSS**
-- TypeScript
-- Responsive & modern UI
+-Framework: **Angular 20**
+-Language: TypeScript
+-Styling: **Tailwind CSS**
+-Form Handling: Angular Reactive Forms
+-Responsive & modern UI
+-Mock API: local JSON file
 
 ---
 
-## Features
+## Core Features
 
-- Light / Dark mode
-- Fully responsive layout
-- Clean and corporate design
-- Reusable components
-- Organized section-based structure
+- 🌗 Light / Dark mode
+- 📱 Fully responsive design 
+- 🔍 Global search functionality
+- 🗂️ Filter by category
+- ♾️ Infinite scroll for listing pages
+- 📝 Forms built with *Reactive Forms* (with validations)
+- ♻️ Reusable & maintainable components
+- 🎨 Clean, modern, corporate UI
 
 ---
 
@@ -46,8 +55,17 @@ The project focuses on a clean UI, smooth user experience, and a fully responsiv
 
 ---
 
-## Project Status
+## What This Project Demonstrates
 
- **This project is still under development**
+- Strong understanding of *Angular fundamentals*
+- Practical usage of *Reactive Forms & validation*
+- Implementation of real-world UX features (search, filtering, infinite scroll)
+- Responsive design using *Tailwind CSS*
+- Ability to build clean, scalable frontend applications
 
-More features, improvements, and UI enhancements will be added soon.
+---
+
+## Live Demo
+
+🔗 **[View Website](https://nahla-ibrahim.github.io/Pledge-Website/)**
+
