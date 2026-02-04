@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nahla-ibrahim/Pledge-Website/main/public/logo.png](https://github.com/nahla-ibrahim/Pledge-Website/blob/main/src/assets/logo.png" width="120" />
+  <img src="https://github.com/nahla-ibrahim/Pledge-Website/blob/main/src/assets/logo.png" width="120" />
   <br/>
   <a href="https://nahla-ibrahim.github.io/Pledge-Website/">
     <strong>Live Demo 🔗</strong>
