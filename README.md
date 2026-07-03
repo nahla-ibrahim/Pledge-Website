@@ -1,35 +1,38 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nahla-ibrahim/SKILLORA-Website/main/public/logo.png" width="120" />
+  <img src="https://github.com/nahla-ibrahim/Training-Center-Website/blob/main/src/assets/logo.png" width="120" />
   <br/>
-  <a href="https://nahla-ibrahim.github.io/SKILLORA-Website/">
+  <a href="https://nahla-ibrahim.github.io/Training-Center-Website/">
     <strong>Live Demo 🔗</strong>
   </a>
 </p>
-# SKILLORA Website
 
-A modern corporate website for **SKILLORA**, a company that provides  
-**Courses, Workshops, and Internship programs**.
+# Pledge Website
 
-The project focuses on a clean UI, smooth user experience, and a fully responsive design.
+A modern corporate website for training courses company, built with Angular. Focused on clean architecture, scalable design, and reusable components. Designed with a responsive, user-friendly UI and built-in form validations to enhance the user experience.
 
 ---
 
 ## Tech Stack
 
-- **Angular 20**
-- **Tailwind CSS**
-- TypeScript
-- Responsive & modern UI
+-Framework: **Angular 20**
+-Language: TypeScript
+-Styling: **Tailwind CSS**
+-Form Handling: Angular Reactive Forms
+-Responsive & modern UI
+-Mock API: local JSON file
 
 ---
 
-## Features
+## Core Features
 
-- Light / Dark mode
-- Fully responsive layout
-- Clean and corporate design
-- Reusable components
-- Organized section-based structure
+- 🌗 Light / Dark mode
+- 📱 Fully responsive design
+- 🔍 search functionality
+- 🗂️ Filter by category
+- ♾️ Infinite scroll for listing pages
+- 📝 Forms built with _Reactive Forms_ (with validations)
+- ♻️ Reusable & maintainable components
+- 🎨 Clean, modern, corporate UI
 
 ---
 
@@ -46,8 +49,16 @@ The project focuses on a clean UI, smooth user experience, and a fully responsiv
 
 ---
 
-## Project Status
+## What This Project Demonstrates
 
-**This project is still under development**
+- Strong understanding of _Angular fundamentals_
+- Practical usage of _Reactive Forms & validation_
+- Implementation of real-world UX features (search, filtering, infinite scroll)
+- Responsive design using _Tailwind CSS_
+- Ability to build clean, scalable frontend applications
 
-More features, improvements, and UI enhancements will be added soon.
+---
+
+## Live Demo
+
+🔗 **[View Website](https://nahla-ibrahim.github.io/Training-Center-Website/)**
