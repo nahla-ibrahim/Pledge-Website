@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "SKILLORA": {
+    "Training-Center-Website": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -54,10 +54,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "SKILLORA:build:production"
+              "buildTarget": "Training-Center-Website:build:production"
             },
             "development": {
-              "buildTarget": "SKILLORA:build:development"
+              "buildTarget": "Training-Center-Website:build:development"
             }
           },
           "defaultConfiguration": "development"
