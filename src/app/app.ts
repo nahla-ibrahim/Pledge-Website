@@ -29,5 +29,5 @@ export class App implements OnInit, AfterViewInit {
     }
   }
 
-  protected readonly title = signal('Pledge');
+  protected readonly title = signal('SKILLORA');
 }

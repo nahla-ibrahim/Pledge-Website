@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nahla-ibrahim/Pledge-Website/main/public/logo.png" width="120" />
+  <img src="https://raw.githubusercontent.com/nahla-ibrahim/SKILLORA-Website/main/public/logo.png" width="120" />
   <br/>
-  <a href="https://nahla-ibrahim.github.io/Pledge-Website/">
+  <a href="https://nahla-ibrahim.github.io/SKILLORA-Website/">
     <strong>Live Demo 🔗</strong>
   </a>
 </p>
-# Pledge Website
+# SKILLORA Website
 
-A modern corporate website for **Pledge**, a company that provides  
+A modern corporate website for **SKILLORA**, a company that provides  
 **Courses, Workshops, and Internship programs**.
 
 The project focuses on a clean UI, smooth user experience, and a fully responsive design.
@@ -48,6 +48,6 @@ The project focuses on a clean UI, smooth user experience, and a fully responsiv
 
 ## Project Status
 
- **This project is still under development**
+**This project is still under development**
 
 More features, improvements, and UI enhancements will be added soon.
