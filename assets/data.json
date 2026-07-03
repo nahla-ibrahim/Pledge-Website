@@ -1,0 +1,1012 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Digital Marketing",
+      "image": "assets/digital.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1500,
+      "discountPrice": 1200,
+      "category": "Frontend",
+      "instructorId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Programming",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1800,
+      "discountPrice": 1400,
+      "category": "UI/UX",
+      "instructorId": "4"
+    },
+    {
+      "id": "3",
+      "title": "English",
+      "image": "assets/english.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1000,
+      "discountPrice": 700,
+      "category": "Backend",
+      "instructorId": "6"
+    },
+    {
+      "id": "4",
+      "title": "Mobile",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile",
+      "instructorId": "5"
+    },
+    {
+      "id": "5",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend",
+      "instructorId": "3"
+    },
+    {
+      "id": "6",
+      "title": "UI/UX",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": "2"
+    },
+    {
+      "id": "7",
+      "title": "Mobile",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile",
+      "instructorId": "5"
+    },
+    {
+      "id": "8",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend",
+      "instructorId": "3"
+    },
+    {
+      "id": "9",
+      "title": "Web Development",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "10",
+      "title": "Mobile",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile",
+      "instructorId": ""
+    },
+    {
+      "id": "11",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": ""
+    },
+    {
+      "id": "12",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "13",
+      "title": "Mobile",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile",
+      "instructorId": ""
+    },
+    {
+      "id": "14",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "15",
+      "title": "Mobile",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile",
+      "instructorId": ""
+    },
+    {
+      "id": "16",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "17",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": ""
+    },
+    {
+      "id": "18",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "19",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "20",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile",
+      "instructorId": ""
+    },
+    {
+      "id": "21",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": ""
+    },
+    {
+      "id": "22",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "23",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "24",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile",
+      "instructorId": ""
+    },
+    {
+      "id": "25",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "26",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": ""
+    },
+    {
+      "id": "27",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Mobile",
+      "instructorId": ""
+    },
+    {
+      "id": "28",
+      "title": "Marketing",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend",
+      "instructorId": ""
+    }
+  ],
+  "workshops": [
+    {
+      "id": "1",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": "4"
+    },
+    {
+      "id": "3",
+      "title": "Art Workshop",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": "2"
+    },
+    {
+      "id": "4",
+      "title": "Marketing Workshop",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Backend",
+      "instructorId": "3"
+    },
+    {
+      "id": "5",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": "6"
+    },
+    {
+      "id": "6",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": "4"
+    },
+    {
+      "id": "7",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": "5"
+    },
+    {
+      "id": "8",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": "4"
+    },
+    {
+      "id": "9",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": "1"
+    },
+    {
+      "id": "10",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": "4"
+    },
+    {
+      "id": "11",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": "6"
+    },
+    {
+      "id": "12",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": "5"
+    },
+    {
+      "id": "13",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": "2"
+    },
+    {
+      "id": "14",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": "3"
+    },
+    {
+      "id": "15",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": "1"
+    },
+    {
+      "id": "16",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "17",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "18",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "19",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "20",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "21",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "22",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "23",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "24",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "25",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "26",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "27",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "28",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "29",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "30",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "31",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "32",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "33",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "34",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "35",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "36",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": ""
+    },
+    {
+      "id": "37",
+      "title": "Drawing Workshop",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "38",
+      "title": "Programming Workshop",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": ""
+    }
+  ],
+  "internships": [
+    {
+      "id": "1",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": "3"
+    },
+    {
+      "id": "2",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": "2"
+    },
+    {
+      "id": "3",
+      "title": "Programming internship",
+      "image": "assets/programming.webp",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 1300,
+      "category": "Backend",
+      "instructorId": "6"
+    },
+    {
+      "id": "4",
+      "title": "Drawing internship",
+      "image": "assets/drawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1300,
+      "discountPrice": 1150,
+      "category": "Frontend",
+      "instructorId": "1"
+    },
+    {
+      "id": "5",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": "2"
+    },
+    {
+      "id": "6",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": "5"
+    },
+    {
+      "id": "7",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": "1"
+    },
+    {
+      "id": "8",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": "4"
+    },
+    {
+      "id": "9",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": "3"
+    },
+    {
+      "id": "10",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": "5"
+    },
+    {
+      "id": "11",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": "6"
+    },
+    {
+      "id": "12",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": "4"
+    },
+    {
+      "id": "13",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": ""
+    },
+    {
+      "id": "14",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "15",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": ""
+    },
+    {
+      "id": "16",
+      "title": "Accounting Internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "17",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": ""
+    },
+    {
+      "id": "18",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "19",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": ""
+    },
+    {
+      "id": "20",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "21",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": ""
+    },
+    {
+      "id": "22",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "23",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": ""
+    },
+    {
+      "id": "24",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "25",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": ""
+    },
+    {
+      "id": "26",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "27",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": ""
+    },
+    {
+      "id": "28",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": ""
+    },
+    {
+      "id": "29",
+      "title": "Art internship",
+      "image": "assets/digitalDrawing.jpeg",
+      "description": "lorem kldemke rfker wkdwq",
+      "price": 1400,
+      "discountPrice": 900,
+      "category": "UI/UX",
+      "instructorId": ""
+    },
+    {
+      "id": "30",
+      "title": "Marketing internship",
+      "image": "assets/header1.png",
+      "description": "lorem kldemke rfker wkdwq ",
+      "price": 1100,
+      "discountPrice": 900,
+      "category": "Frontend",
+      "instructorId": ""
+    }
+  ],
+  "instractors": [
+    {
+      "id": "1",
+      "name": "Mohamed Ahmed",
+      "image": "assets/inst2.jpg",
+      "description": "Business",
+      "exp": 8
+    },
+    {
+      "id": "2",
+      "name": "Eman Seif",
+      "image": "assets/inst4.jpeg",
+      "description": "Developer",
+      "exp": 10
+    },
+    {
+      "id": "3",
+      "name": "Yousef Ibrahim",
+      "image": "assets/inst3.jpg",
+      "description": "Marketing",
+      "exp": 4
+    },
+    {
+      "id": "4",
+      "name": "Ahmed Gamal",
+      "image": "assets/inst2.jpg",
+      "description": "Art Director",
+      "exp": 3
+    },
+    {
+      "id": "5",
+      "name": "Ahmed Gamal",
+      "image": "assets/inst2.jpg",
+      "description": "Art Director",
+      "exp": 3
+    },
+    {
+      "id": "6",
+      "name": "Ahmed Gamal",
+      "image": "assets/inst2.jpg",
+      "description": "Art Director",
+      "exp": 3
+    }
+  ]
+}
