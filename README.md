@@ -6,7 +6,7 @@
   </a>
 </p>
 
-# Pledge Website
+# Skillora  Website
 
 A modern corporate website for training courses company, built with Angular. Focused on clean architecture, scalable design, and reusable components. Designed with a responsive, user-friendly UI and built-in form validations to enhance the user experience.
 
